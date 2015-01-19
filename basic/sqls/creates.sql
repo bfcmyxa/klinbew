@@ -18,10 +18,10 @@ USE `klinbew_db` ;
 -- Table `klinbew_db`.`user`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`user` (
-  `userid` INT NOT NULL,
+  `userid` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `email` VARCHAR(45) NULL,
-  `passoword` VARCHAR(45) NULL,
+  `password` VARCHAR(45) NULL,
   `creationDate` DATETIME NULL,
   `modified` DATETIME NULL,
   `accessLevel` TINYINT(2) NULL,
@@ -54,7 +54,7 @@ ENGINE = InnoDB;
 -- Table `klinbew_db`.`project`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`project` (
-  `projectid` INT NOT NULL,
+  `projectid` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(45) NULL,
   `alias` VARCHAR(45) NULL,
   `status` VARCHAR(45) NULL,
@@ -81,7 +81,7 @@ ENGINE = InnoDB;
 -- Table `klinbew_db`.`reference`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`reference` (
-  `referenceId` INT NOT NULL,
+  `referenceId` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `file` VARCHAR(45) NULL,
   `version` INT NULL,
@@ -93,7 +93,7 @@ ENGINE = InnoDB;
 -- Table `klinbew_db`.`referenceProject`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`referenceProject` (
-  `referenceProjectId` INT NOT NULL,
+  `referenceProjectId` INT NOT NULL AUTO_INCREMENT,
   `projectId` INT NULL,
   `referenceId` INT NULL,
   PRIMARY KEY (`referenceProjectId`),
@@ -116,7 +116,7 @@ ENGINE = InnoDB;
 -- Table `klinbew_db`.`author`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`author` (
-  `authorId` INT NOT NULL,
+  `authorId` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `fname` VARCHAR(45) NULL,
   PRIMARY KEY (`authorId`))
@@ -127,7 +127,7 @@ ENGINE = InnoDB;
 -- Table `klinbew_db`.`source`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`source` (
-  `sourceId` INT NOT NULL,
+  `sourceId` INT NOT NULL AUTO_INCREMENT,
   `type` VARCHAR(45) NULL,
   `authorId` INT NULL,
   `title` VARCHAR(45) NULL,
@@ -153,7 +153,7 @@ ENGINE = InnoDB;
 -- Table `klinbew_db`.`rating`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`rating` (
-  `ratingId` INT NOT NULL,
+  `ratingId` INT NOT NULL AUTO_INCREMENT,
   `ratedBy` INT NULL,
   `ratingDate` DATETIME NULL,
   `evidenceValue` INT NULL,
@@ -172,7 +172,7 @@ ENGINE = InnoDB;
 -- Table `klinbew_db`.`sourceProject`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`sourceProject` (
-  `sourceProjectId` INT NOT NULL,
+  `sourceProjectId` INT NOT NULL AUTO_INCREMENT,
   `projectId` INT NULL,
   `sourceId` INT NULL,
   `ratingId` INT NULL,

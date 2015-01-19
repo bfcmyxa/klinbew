@@ -41,8 +41,7 @@ class Project extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['projectid'], 'required'],
-            [['projectid', 'createdBy', 'dokumentVersion', 'productVersion', 'referenceProjectId'], 'integer'],
+            [['createdBy', 'dokumentVersion', 'productVersion', 'referenceProjectId'], 'integer'],
             [['creationDate', 'modifyDate'], 'safe'],
             [['title', 'alias', 'status', 'fileName', 'productName', 'productDescription'], 'string', 'max' => 45]
         ];

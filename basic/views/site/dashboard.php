@@ -5,12 +5,14 @@ use yii\helpers\Html;
 <div class="container">
         <div class="row text-center " style="margin-top:20px">
           <div class="col-sm-12">
-            <button class="btn newproject btn-success btn-lg" type="submit">
+            <a class="btn newproject btn-success btn-lg" href="/basic/web/index.php?r=project%2Fcreate">
             <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-          Neues Projekt anlegen</button>
+          Neues Projekt anlegen</a>
           </div>
         </div>
         <div class="row" style="margin-top:20px">
+
+
           <div class="col-sm-2"> </div>
           <div class="col-sm-3 table-bordered">
             <h3>Projektname1</h3>

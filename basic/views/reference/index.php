@@ -1,15 +1,37 @@
 <?php
-use yii\helpers\Html;
-use yii\widgets\LinkPager;
-?>
-<h1>References</h1>
-<ul>
-<?php foreach ($references as $reference): ?>
-    <li>
-        <?= Html::encode("{$reference->name} ({$reference->file})") ?>:
-        <?= $reference->version ?>
-    </li>
-<?php endforeach; ?>
-</ul>
 
-<?= LinkPager::widget(['pagination' => $pagination]) ?>
+use yii\helpers\Html;
+use yii\grid\GridView;
+
+/* @var $this yii\web\View */
+/* @var $searchModel app\models\ReferenceSearch */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'References';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="reference-index">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <p>
+        <?= Html::a('Create Reference', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
+
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'referenceId',
+            'name',
+            'file',
+            'version',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+
+</div>

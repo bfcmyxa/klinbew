@@ -11,13 +11,10 @@ $this->title = 'Projects';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="project-index">
-
+    <?= Html::a('<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+          Neues Projekt anlegen', ['create'], ['class' => 'btn btn-success']) ?>
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
-
-    <p>
-        <?= Html::a('Create Project', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -25,22 +22,21 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'projectid',
+            //'projectid',
             'title',
-            'alias',
-            'status',
-            'createdBy',
+            //'alias',
+            //'status',
+            // 'createdBy',
             // 'creationDate',
             // 'modifyDate',
-            // 'fileName',
-            // 'productName',
+             'fileName',
+             'productName',
             // 'dokumentVersion',
-            // 'productVersion',
+             'productVersion',
             // 'referenceProjectId',
-            // 'productDescription',
+             'productDescription',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
-
 </div>
