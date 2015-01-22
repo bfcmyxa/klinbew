@@ -57,12 +57,14 @@ class ProjectController extends Controller
      * Creates a new Project model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
+     *
+     * NEW: if created - the user will be added. But the user HAS TO BE IN THE DATABASE
      */
     public function actionCreate()
     {
         $model = new Project();
         $model->status = 'New Project';
-
+        $model->createdBy = Yii::$app->user->id;
         if ($model->load(Yii::$app->request->post())&& $model->save()) {
             return $this->redirect(['view', 'id' => $model->projectid]);
         } else {
@@ -120,10 +122,9 @@ class ProjectController extends Controller
                 'model' => $model,
             ]);
         }
-
-
-
     }
+
+
 
 
     /**
@@ -147,7 +148,8 @@ class ProjectController extends Controller
         $searchModel = new ProjectSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-
+        $testvar = Yii::$app->user->id;
+        echo $testvar;
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,

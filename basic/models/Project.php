@@ -74,6 +74,7 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getCreatedBy0()
     {
+        //Project has_one User via user.id -> createdBy
         return $this->hasOne(User::className(), ['id' => 'createdBy']);
     }
 
@@ -92,7 +93,7 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getSourceprojects()
     {
-        return $this->hasMany(Sourceproject::className(), ['projectId' => 'projectid']);
+        return $this->hasMany(SourceProject::className(), ['projectId' => 'projectid']);
     }
 
     /**
@@ -102,4 +103,13 @@ class Project extends \yii\db\ActiveRecord
         return $this->hasMany(Reference::className(), ['referenceId' => 'referenceId'])
                         ->viaTable(ReferenceProject::tableName(), ['projectId' => 'projectid']);
     }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getSources() {
+        return $this->hasMany(Source::className(), ['sourceId' => 'sourceId'])
+            ->viaTable(SourceProject::tableName(), ['projectId' => 'projectid']);
+    }
+
 }

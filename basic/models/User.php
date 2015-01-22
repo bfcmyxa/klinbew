@@ -2,6 +2,12 @@
 
 namespace app\models;
 
+use Yii;
+
+/**
+ * @property Project[] $projects
+ */
+
 class User extends \yii\base\Object implements \yii\web\IdentityInterface
 {
     public $id;
@@ -120,4 +126,9 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
         return $this->username;
     }
 
+    public function getProjects ()
+    {
+        //User has_many Projects via Project.createdBy -> id
+        return $this->hasMany(Project::className(), ['createdBy' => 'id']);
+    }
 }
