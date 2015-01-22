@@ -61,8 +61,9 @@ class ProjectController extends Controller
     public function actionCreate()
     {
         $model = new Project();
+        $model->status = 'New Project';
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())&& $model->save()) {
             return $this->redirect(['view', 'id' => $model->projectid]);
         } else {
             return $this->render('create', [
@@ -80,6 +81,7 @@ class ProjectController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $model->status = 'Project Updated';
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->projectid]);
@@ -102,6 +104,27 @@ class ProjectController extends Controller
 
         return $this->redirect(['index']);
     }
+
+    public function actionDescription($id)
+    {
+        $model = $this->findModel($id);
+
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->status = 'Description Updated';
+            if ($model->save()) {
+                return $this->redirect(['view', 'id' => $model->projectid]);
+            }
+        } else {
+            return $this->render('description', [
+                'model' => $model,
+            ]);
+        }
+
+
+
+    }
+
 
     /**
      * Finds the Project model based on its primary key value.
@@ -130,4 +153,6 @@ class ProjectController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
+
+
 }

@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'projectid',
             'title',
             //'alias',
-            //'status',
+            'status',
             // 'createdBy',
             // 'creationDate',
             // 'modifyDate',

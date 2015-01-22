@@ -1,0 +1,49 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Ivan
+ * Date: 1/22/2015
+ * Time: 2:58 AM
+ */
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+
+/* @var $this yii\web\View */
+/* @var $model app\models\Project */
+/* @var $form yii\widgets\ActiveForm */
+?>
+
+<div class="project-form">
+
+    <?php $form = ActiveForm::begin(); ?>
+
+
+    <?= $form->field($model, 'productDescription')->textArea(['rows' => 6]) ?>
+
+    <!--
+    <?= $form->field($model, 'productDescription')->textInput(['maxlength' => 45]) ?>
+
+    <?= $form->field($model, 'alias')->textInput(['maxlength' => 45]) ?>
+
+    <?= $form->field($model, 'status')->textInput(['maxlength' => 45]) ?>
+
+    <?= $form->field($model, 'createdBy')->textInput() ?>
+
+    <?= $form->field($model, 'creationDate')->textInput() ?>
+
+    <?= $form->field($model, 'modifyDate')->textInput() ?>
+
+    <?= $form->field($model, 'dokumentVersion')->textInput() ?>
+
+    <?= $form->field($model, 'referenceProjectId')->textInput() ?>
+
+
+-->
+    <div class="form-group">
+        <?= Html::submitButton('Change Description', ['class' => 'btn btn-default']) ?>
+    </div>
+
+    <?php ActiveForm::end(); ?>
+
+</div>

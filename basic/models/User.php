@@ -25,6 +25,20 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
             'authKey' => 'test101key',
             'accessToken' => '101-token',
         ],
+        '102' => [
+            'id' => '102',
+            'username' => 'bfcm',
+            'password' => 'bfcm',
+            'authKey' => 'test102key',
+            'accessToken' => '102-token',
+        ],
+        '2' => [
+            'id' => '2',
+            'username' => 'bfcm2',
+            'password' => 'bfcm',
+            'authKey' => 'test2key',
+            'accessToken' => '2-token',
+        ],
     ];
 
     /**
@@ -100,4 +114,10 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
     {
         return $this->password === $password;
     }
+
+    public function getUsername()
+    {
+        return $this->username;
+    }
+
 }

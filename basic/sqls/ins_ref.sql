@@ -18,3 +18,7 @@ INSERT INTO `project`(`projectid`, `title`, `alias`,
 		VALUES (1,'First Project','blabnla','teststatus',
 				2, 12-06-2014,13-06-2014,'testfilename',
 				'name_des_produkts',21,1,1,'some product description');
+
+INSERT INTO `referenceproject` (`projectId`, `referenceId`) VALUES (1, 1);
+INSERT INTO `referenceproject` (`projectId`, `referenceId`) VALUES (1, 2);
+INSERT INTO `referenceproject` (`projectId`, `referenceId`) VALUES (1, 4);

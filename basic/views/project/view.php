@@ -15,7 +15,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Change Metadata', ['update', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Add Description', ['description', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
         <?= Html::a('Delete', ['delete', 'id' => $model->projectid], [
             'class' => 'btn btn-danger',
             'data' => [
@@ -25,22 +26,25 @@ $this->params['breadcrumbs'][] = $this->title;
         ]) ?>
     </p>
 
+
+
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'projectid',
             'title',
-            'alias',
             'status',
-            'createdBy',
-            'creationDate',
-            'modifyDate',
             'fileName',
             'productName',
             'dokumentVersion',
             'productVersion',
-            'referenceProjectId',
             'productDescription',
+            //'projectid',
+            //'referenceProjectId',
+            //'modifyDate',
+            //'creationDate',
+            'createdBy',
+            array("attribute" => "Some Test Field directly from view", "value" =>"Some test value"),
+            //'alias',
         ],
     ]) ?>
 

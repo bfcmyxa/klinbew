@@ -15,6 +15,7 @@ class ContactForm extends Model
     public $subject;
     public $body;
     public $verifyCode;
+    public $tupotext;
 
     /**
      * @return array the validation rules.
@@ -38,6 +39,7 @@ class ContactForm extends Model
     {
         return [
             'verifyCode' => 'Verification Code',
+            'tupotext' => 'Please enter some random text (not necessary)',
         ];
     }
 

@@ -86,6 +86,7 @@ class SiteController extends Controller
         } else {
             return $this->render('contact', [
                 'model' => $model,
+                'testbla' => 'tupotext', 
             ]);
         }
     }

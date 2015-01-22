@@ -42,8 +42,8 @@ class Project extends \yii\db\ActiveRecord
     {
         return [
             [['createdBy', 'dokumentVersion', 'productVersion', 'referenceProjectId'], 'integer'],
-            [['creationDate', 'modifyDate'], 'safe'],
-            [['title', 'alias', 'status', 'fileName', 'productName', 'productDescription'], 'string', 'max' => 45]
+            [['creationDate', 'modifyDate', 'productDescription'], 'safe'],
+            [['title', 'alias', 'status', 'fileName', 'productName'], 'string', 'max' => 45]
         ];
     }
 
@@ -54,16 +54,16 @@ class Project extends \yii\db\ActiveRecord
     {
         return [
             'projectid' => 'Projectid',
-            'title' => 'Title',
-            'alias' => 'Alias',
+            'title' => 'Name des Projekts',
+            'alias' => 'Link auf das Projekt',
             'status' => 'Status',
-            'createdBy' => 'Created By',
+            'createdBy' => 'Author',
             'creationDate' => 'Creation Date',
             'modifyDate' => 'Modify Date',
-            'fileName' => 'File Name',
-            'productName' => 'Product Name',
+            'fileName' => 'Dateiname',
+            'productName' => 'Produktname',
             'dokumentVersion' => 'Dokument Version',
-            'productVersion' => 'Product Version',
+            'productVersion' => 'Produkt Version',
             'referenceProjectId' => 'Reference Project ID',
             'productDescription' => 'Product Description',
         ];
@@ -74,8 +74,10 @@ class Project extends \yii\db\ActiveRecord
      */
     public function getCreatedBy0()
     {
-        return $this->hasOne(User::className(), ['userid' => 'createdBy']);
+        return $this->hasOne(User::className(), ['id' => 'createdBy']);
     }
+
+
 
     /**
      * @return \yii\db\ActiveQuery
@@ -91,5 +93,13 @@ class Project extends \yii\db\ActiveRecord
     public function getSourceprojects()
     {
         return $this->hasMany(Sourceproject::className(), ['projectId' => 'projectid']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getReferences() {
+        return $this->hasMany(Reference::className(), ['referenceId' => 'referenceId'])
+                        ->viaTable(ReferenceProject::tableName(), ['projectId' => 'projectid']);
     }
 }
