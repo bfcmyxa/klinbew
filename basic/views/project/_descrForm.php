@@ -8,6 +8,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\jui\DatePicker;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Project */
@@ -45,5 +46,17 @@ use yii\widgets\ActiveForm;
     </div>
 
     <?php ActiveForm::end(); ?>
+
+    <?php
+
+    echo DatePicker::widget([
+    'language' => 'ru',
+    'name'  => 'country',
+    'clientOptions' => [
+    'dateFormat' => 'yy-mm-dd',
+    ],
+    ]);
+
+    ?>
 
 </div>
