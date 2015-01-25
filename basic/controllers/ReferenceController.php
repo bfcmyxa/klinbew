@@ -63,7 +63,7 @@ class ReferenceController extends Controller
         $model = new Reference();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->referenceId]);
+            return $this->redirect(['index']);
         } else {
             return $this->render('create', [
                 'model' => $model,

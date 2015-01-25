@@ -66,7 +66,8 @@ class ProjectController extends Controller
         $model->status = 'New Project';
         $model->createdBy = Yii::$app->user->id;
         if ($model->load(Yii::$app->request->post())&& $model->save()) {
-            return $this->redirect(['view', 'id' => $model->projectid]);
+//            return $this->redirect(['view', 'id' => $model->projectid]);
+            return $this->redirect(['description', 'id' => $model->projectid]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -115,7 +116,7 @@ class ProjectController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             $model->status = 'Description Updated';
             if ($model->save()) {
-                return $this->redirect(['view', 'id' => $model->projectid]);
+                return $this->redirect(['reference/index']);
             }
         } else {
             return $this->render('description', [

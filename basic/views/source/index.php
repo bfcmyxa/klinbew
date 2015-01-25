@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\SourceSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Sources';
+$this->title = 'Literaturquellen';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="source-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Source', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Neue Quelle hinzufügen', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -27,11 +27,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'sourceId',
             'type',
-            'authorId',
             'title',
             'year',
-            // 'place',
-            // 'publisher',
+            'place',
+            'publisher',
+            //'authorId',
             // 'keywords',
             // 'text',
             // 'status',

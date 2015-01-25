@@ -6,13 +6,14 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Reference */
 
-$this->title = $model->name;
+$this->title = 'Referenzierte Dokumenten';
 $this->params['breadcrumbs'][] = ['label' => 'References', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = 'Referenzen';
 ?>
 <div class="reference-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h2><?= Html::encode($this->title) ?></h2>
+
 
     <p>
         <?= Html::a('Update', ['update', 'id' => $model->referenceId], ['class' => 'btn btn-primary']) ?>
@@ -28,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'referenceId',
+            //'referenceId',
             'name',
             'file',
             'version',

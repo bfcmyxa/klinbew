@@ -11,10 +11,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Project */
 
-$this->title = 'Change description: ' . ' ' . $model->title;
+$this->title = 'Produktbeschreibung';
 $this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->projectid]];
-$this->params['breadcrumbs'][] = 'Add Description';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="project-description">
 

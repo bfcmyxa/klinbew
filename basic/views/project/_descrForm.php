@@ -42,13 +42,14 @@ use yii\jui\DatePicker;
 
 -->
     <div class="form-group">
-        <?= Html::submitButton('Change Description', ['class' => 'btn btn-default']) ?>
+        <?= Html::submitButton('Speichern', ['class' => 'btn btn-default']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
 
+<!--
+HERE SOME TESTS FOR DataPicker WIDGET
     <?php
-
     echo DatePicker::widget([
     'language' => 'ru',
     'name'  => 'country',
@@ -56,7 +57,6 @@ use yii\jui\DatePicker;
     'dateFormat' => 'yy-mm-dd',
     ],
     ]);
-
     ?>
-
+-->
 </div>

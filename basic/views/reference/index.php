@@ -7,13 +7,19 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\ReferenceSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'References';
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Referenzierte Dokumenten';
+$this->params['breadcrumbs'][] = 'Referenzen';
 ?>
 <div class="reference-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h2><?= Html::encode($this->title) ?></h2>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <br>
+    <p>
+        Typische notwendige Dokumenten sind z.B. Zweckbestimmung, Risikoanalyse, SOP, Glossar
+    </p>
+    <br>
 
     <p>
         <?= Html::a('Create Reference', ['create'], ['class' => 'btn btn-success']) ?>
@@ -21,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
+        //'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
@@ -33,5 +39,22 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <?= Html::a('Back to Projects', ['project/index'], ['class' => 'btn btn-primary btn-lg btn-block']) ?>
+            </div>
+            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-3">
+                <?= Html::a('Weiter', ['source/index'], ['class' => 'btn btn-success btn-lg btn-block']) ?>
+            </div>
+        </div>
+
+    </div>
+
 
 </div>

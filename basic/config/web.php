@@ -14,10 +14,12 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
-        ],
+        //'user' => [
+            //'identityClass' => 'app\models\User',
+            //'identityClass' => 'dektrium\user\models\User',
+            //'class' => 'dektrium\user\Module',
+            //'enableAutoLogin' => true,
+        //],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
@@ -38,6 +40,13 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+    ],
+    'modules' => [
+        'user' => [
+            'class' => 'dektrium\user\Module',
+            'enableUnconfirmedLogin' => true,
+            'admins' => ['bfcmyxa'],
+        ],
     ],
     'params' => $params,
 ];

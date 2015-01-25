@@ -15,42 +15,6 @@ CREATE SCHEMA IF NOT EXISTS `klinbew_db` DEFAULT CHARACTER SET utf8 COLLATE utf8
 USE `klinbew_db` ;
 
 -- -----------------------------------------------------
--- Table `klinbew_db`.`user`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `klinbew_db`.`user` (
-  `userid` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(45) NULL,
-  `email` VARCHAR(45) NULL,
-  `password` VARCHAR(45) NULL,
-  `creationDate` DATETIME NULL,
-  `modified` DATETIME NULL,
-  `accessLevel` TINYINT(2) NULL,
-  PRIMARY KEY (`userid`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `klinbew_db`.`system`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `klinbew_db`.`system` (
-  `systemid` INT NOT NULL,
-  `siteUrl` VARCHAR(45) NULL,
-  `siteInfo` VARCHAR(45) NULL,
-  `siteDescription` VARCHAR(45) NULL,
-  `ownerInfo` VARCHAR(45) NULL,
-  `ownerEmail` VARCHAR(45) NULL,
-  `userId` INT NULL,
-  PRIMARY KEY (`systemid`),
-  INDEX `userId_idx` (`userId` ASC),
-  CONSTRAINT `userId`
-    FOREIGN KEY (`userId`)
-    REFERENCES `klinbew_db`.`user` (`userid`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
 -- Table `klinbew_db`.`project`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `klinbew_db`.`project` (
@@ -66,14 +30,8 @@ CREATE TABLE IF NOT EXISTS `klinbew_db`.`project` (
   `dokumentVersion` INT NULL,
   `productVersion` INT NULL,
   `referenceProjectId` INT NULL,
-  `productDescription` VARCHAR(45) NULL,
-  PRIMARY KEY (`projectid`),
-  INDEX `createdBy_idx` (`createdBy` ASC),
-  CONSTRAINT `createdBy`
-    FOREIGN KEY (`createdBy`)
-    REFERENCES `klinbew_db`.`user` (`userid`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+  `productDescription` VARCHAR(10000) NULL,
+  PRIMARY KEY (`projectid`))
 ENGINE = InnoDB;
 
 
@@ -102,12 +60,12 @@ CREATE TABLE IF NOT EXISTS `klinbew_db`.`referenceProject` (
   CONSTRAINT `project`
     FOREIGN KEY (`projectId`)
     REFERENCES `klinbew_db`.`project` (`projectid`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `reference`
     FOREIGN KEY (`referenceId`)
     REFERENCES `klinbew_db`.`reference` (`referenceId`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -144,7 +102,7 @@ CREATE TABLE IF NOT EXISTS `klinbew_db`.`source` (
   CONSTRAINT `authorId`
     FOREIGN KEY (`authorId`)
     REFERENCES `klinbew_db`.`author` (`authorId`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -183,17 +141,17 @@ CREATE TABLE IF NOT EXISTS `klinbew_db`.`sourceProject` (
   CONSTRAINT `projectId`
     FOREIGN KEY (`projectId`)
     REFERENCES `klinbew_db`.`project` (`projectid`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `sourceId`
     FOREIGN KEY (`sourceId`)
     REFERENCES `klinbew_db`.`source` (`sourceId`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `ratingId`
     FOREIGN KEY (`ratingId`)
     REFERENCES `klinbew_db`.`rating` (`ratingId`)
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 

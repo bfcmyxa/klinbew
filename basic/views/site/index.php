@@ -9,7 +9,7 @@ $this->title = 'My Yii Application';
 
         <p class="lead">Das Toolset zur Erstellung von klinischer Bewertung.</p>
 
-        <p><a class="btn btn-lg btn-success" href="/basic/web/index.php?r=site%2Fabout">Jetzt probieren</a></p>
+        <p><a class="btn btn-lg btn-success" href="/basic/web/index.php?r=user/registration/register">Jetzt probieren</a></p>
     </div>
 
     <div class="body-content">
