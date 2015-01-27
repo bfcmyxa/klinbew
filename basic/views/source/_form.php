@@ -13,7 +13,7 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'type')
-        ->dropDownList(['Buch', 'Artikel in Zeitschrift', 'Website']) ?>
+        ->dropDownList(['Buch' => 'Buch', 'Artikel in Zeitschrift' => 'Artikel in Zeitschrift', 'Website' => 'Website']) ?>
 
 
     <?= $form->field($model, 'title')->textInput(['maxlength' => 45]) ?>

@@ -18,7 +18,7 @@ class ProjectSearch extends Project
     public function rules()
     {
         return [
-            [['projectid', 'createdBy', 'dokumentVersion', 'productVersion', 'referenceProjectId'], 'integer'],
+            [['projectid', 'createdBy', 'dokumentVersion', 'productVersion'], 'integer'],
             [['title', 'alias', 'status', 'creationDate', 'modifyDate', 'fileName', 'productName', 'productDescription'], 'safe'],
         ];
     }
@@ -62,7 +62,6 @@ class ProjectSearch extends Project
             'modifyDate' => $this->modifyDate,
             'dokumentVersion' => $this->dokumentVersion,
             'productVersion' => $this->productVersion,
-            'referenceProjectId' => $this->referenceProjectId,
         ]);
 
         $query->andFilterWhere(['like', 'title', $this->title])

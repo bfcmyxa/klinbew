@@ -2,9 +2,11 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\ReferenceSearch */
+/* @var $projectModel app\models\Project */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Referenzierte Dokumenten';
@@ -22,7 +24,7 @@ $this->params['breadcrumbs'][] = 'Referenzen';
     <br>
 
     <p>
-        <?= Html::a('Create Reference', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Reference', ['create', 'id' => $projectModel->projectid ], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -40,6 +42,26 @@ $this->params['breadcrumbs'][] = 'Referenzen';
         ],
     ]); ?>
     <br>
+
+    <?= DetailView::widget([
+        'model' => $projectModel,
+        'attributes' => [
+            'title',
+            'status',
+            'fileName',
+            'productName',
+            'dokumentVersion',
+            'productVersion',
+            'productDescription',
+            //'projectid',
+            //'referenceProjectId',
+            //'modifyDate',
+            //'creationDate',
+            'createdBy',
+            //'alias',
+        ],
+    ]) ?>
+
     <br>
     <br>
     <div class="container">

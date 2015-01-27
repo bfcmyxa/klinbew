@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>
         <?= Html::a('Change Metadata', ['update', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
         <?= Html::a('Produktbeschreibung', ['description', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Referenzen', ['reference/index'], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Referenzen', ['reference/index', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
         <?= Html::a('Delete', ['delete', 'id' => $model->projectid], [
             'class' => 'btn btn-danger',
             'data' => [

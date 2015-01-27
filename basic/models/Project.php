@@ -18,7 +18,6 @@ use Yii;
  * @property string $productName
  * @property integer $dokumentVersion
  * @property integer $productVersion
- * @property integer $referenceProjectId
  * @property string $productDescription
  *
  * @property User $createdBy0
@@ -41,7 +40,7 @@ class Project extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['createdBy', 'dokumentVersion', 'productVersion', 'referenceProjectId'], 'integer'],
+            [['createdBy', 'dokumentVersion', 'productVersion'], 'integer'],
             [['creationDate', 'modifyDate', 'productDescription'], 'safe'],
             [['title', 'alias', 'status', 'fileName', 'productName'], 'string', 'max' => 45]
         ];
@@ -64,7 +63,6 @@ class Project extends \yii\db\ActiveRecord
             'productName' => 'Produktname',
             'dokumentVersion' => 'Dokument Version',
             'productVersion' => 'Produkt Version',
-            'referenceProjectId' => 'Reference Project ID',
             'productDescription' => 'Product Description',
         ];
     }
