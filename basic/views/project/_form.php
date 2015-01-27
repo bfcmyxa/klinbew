@@ -32,9 +32,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'modifyDate')->textInput() ?>
 
     <?= $form->field($model, 'dokumentVersion')->textInput() ?>
-
-    <?= $form->field($model, 'referenceProjectId')->textInput() ?>
-
+    
     <?= $form->field($model, 'productDescription')->textInput(['maxlength' => 45]) ?>
 -->
     <div class="form-group">
