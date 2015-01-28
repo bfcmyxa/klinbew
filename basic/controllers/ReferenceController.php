@@ -3,9 +3,11 @@
 namespace app\controllers;
 
 use app\models\Project;
+use app\models\ReferenceProject;
 use Yii;
 use app\models\Reference;
 use app\models\ReferenceSearch;
+use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -38,10 +40,17 @@ class ReferenceController extends Controller
 
         $projectModel = Project::findOne($id);
 
+
+        $refdocsData = new ActiveDataProvider([
+            'query' => ReferenceProject::find(),
+
+        ]);
+
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
             'projectModel' => $projectModel,
+            'refdocsData' => $refdocsData,
         ]);
     }
 

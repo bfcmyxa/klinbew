@@ -116,7 +116,7 @@ class ProjectController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             $model->status = 'Description Updated';
             if ($model->save()) {
-                return $this->redirect(['reference/index']);
+                return $this->redirect(['reference/index', 'id' => $id]);
             }
         } else {
             return $this->render('description', [

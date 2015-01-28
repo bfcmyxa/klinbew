@@ -37,8 +37,6 @@ use yii\jui\DatePicker;
 
     <?= $form->field($model, 'dokumentVersion')->textInput() ?>
 
-    <?= $form->field($model, 'referenceProjectId')->textInput() ?>
-
 
 -->
     <div class="form-group">

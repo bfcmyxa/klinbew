@@ -2,9 +2,12 @@
 
 namespace app\controllers;
 
+use app\models\SourceProject;
 use Yii;
 use app\models\Source;
 use app\models\SourceSearch;
+use app\models\Project;
+use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -30,14 +33,22 @@ class SourceController extends Controller
      * Lists all Source models.
      * @return mixed
      */
-    public function actionIndex()
+    public function actionIndex($id)
     {
         $searchModel = new SourceSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $projectModel = Project::findOne($id);
+
+        $srcprojData = new ActiveDataProvider([
+            'query' => SourceProject::find(),
+
+        ]);
 
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'projectModel' => $projectModel,
+            'srcprojData' => $srcprojData,
         ]);
     }
 
@@ -58,15 +69,18 @@ class SourceController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    public function actionCreate($id)
     {
         $model = new Source();
+        $projectModel = Project::findOne($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['index']);
+            $projectModel->link('sources', $model);
+            return $this->redirect(['index', 'id' => $id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
+                'projectModel' => $projectModel,
             ]);
         }
     }

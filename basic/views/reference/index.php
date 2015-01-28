@@ -8,6 +8,7 @@ use yii\widgets\DetailView;
 /* @var $searchModel app\models\ReferenceSearch */
 /* @var $projectModel app\models\Project */
 /* @var $dataProvider yii\data\ActiveDataProvider */
+/* @var $refdocsData yii\data\ActiveDataProvider */
 
 $this->title = 'Referenzierte Dokumenten';
 $this->params['breadcrumbs'][] = 'Referenzen';
@@ -33,7 +34,7 @@ $this->params['breadcrumbs'][] = 'Referenzen';
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'referenceId',
+            //'referenceId',
             'name',
             'file',
             'version',
@@ -42,6 +43,19 @@ $this->params['breadcrumbs'][] = 'Referenzen';
         ],
     ]); ?>
     <br>
+
+    <?= GridView::widget([
+        'dataProvider' => $refdocsData,
+        //'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'referenceId',
+            'projectId',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
 
     <?= DetailView::widget([
         'model' => $projectModel,
@@ -62,6 +76,8 @@ $this->params['breadcrumbs'][] = 'Referenzen';
         ],
     ]) ?>
 
+
+
     <br>
     <br>
     <div class="container">
@@ -72,7 +88,7 @@ $this->params['breadcrumbs'][] = 'Referenzen';
             <div class="col-lg-6">
             </div>
             <div class="col-lg-3">
-                <?= Html::a('Weiter', ['source/index'], ['class' => 'btn btn-success btn-lg btn-block']) ?>
+                <?= Html::a('Weiter', ['source/index', 'id' => $projectModel->projectid], ['class' => 'btn btn-success btn-lg btn-block']) ?>
             </div>
         </div>
 
