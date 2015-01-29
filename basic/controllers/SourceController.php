@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Author;
 use app\models\SourceProject;
 use Yii;
 use app\models\Source;
@@ -59,8 +60,11 @@ class SourceController extends Controller
      */
     public function actionView($id)
     {
+        //$projectModel = Project::findOne($projectId);
+
         return $this->render('view', [
             'model' => $this->findModel($id),
+            //'projectModel' => $projectModel,
         ]);
     }
 
@@ -74,6 +78,13 @@ class SourceController extends Controller
         $model = new Source();
         $projectModel = Project::findOne($id);
 
+        $authors = Author::find()->asArray()->all();
+        $newauthors = [];
+
+        foreach ($authors as $i) {
+            array_push($newauthors, $i['name'].' '.$i['fname']);
+        }
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             $projectModel->link('sources', $model);
             return $this->redirect(['index', 'id' => $id]);
@@ -81,6 +92,7 @@ class SourceController extends Controller
             return $this->render('create', [
                 'model' => $model,
                 'projectModel' => $projectModel,
+                'author' => $newauthors,
             ]);
         }
     }

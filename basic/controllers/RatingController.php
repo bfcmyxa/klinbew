@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\models\Project;
+use app\models\Source;
 use Yii;
 use app\models\Rating;
 use app\models\RatingSearch;
@@ -30,14 +32,17 @@ class RatingController extends Controller
      * Lists all Rating models.
      * @return mixed
      */
-    public function actionIndex()
+    public function actionIndex($sourceId)
     {
         $searchModel = new RatingSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
+        $sourceModel = Source::findOne($sourceId);
+
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'sourceModel' => $sourceModel,
         ]);
     }
 
@@ -58,15 +63,20 @@ class RatingController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    public function actionCreate($sourceId)
     {
         $model = new Rating();
+        $sourceModel = Source::findOne($sourceId);
+        //$projectModel = Project::findOne($projectId);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->ratingId]);
+            $sourceModel->link('ratings', $model);
+            //$projectModel->link('ratings', $model);
+            return $this->redirect(['index', 'sourceId' => $sourceId]);
         } else {
             return $this->render('create', [
                 'model' => $model,
+                'sourceModel' => $sourceModel,
             ]);
         }
     }

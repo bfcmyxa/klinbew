@@ -2,9 +2,11 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\RatingSearch */
+/* @var $sourceModel app\models\Source */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Ratings';
@@ -40,5 +42,23 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
+
+    <?= DetailView::widget([
+        'model' => $sourceModel,
+        'attributes' => [
+            'sourceId',
+            'type',
+            'authorId',
+            'title',
+            'year',
+            'place',
+            'publisher',
+            'keywords',
+            'text',
+            'status',
+            'sourceRatingId',
+            'summary',
+        ],
+    ]) ?>
 
 </div>

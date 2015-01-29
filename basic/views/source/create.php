@@ -5,6 +5,7 @@ use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Source */
+/* @var $author[]  */
 
 $this->title = 'Create Source';
 $this->params['breadcrumbs'][] = ['label' => 'Sources', 'url' => ['index']];
@@ -16,6 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= $this->render('_form', [
         'model' => $model,
+        'author' => $author,
     ]) ?>
 
 </div>

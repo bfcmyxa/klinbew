@@ -2,19 +2,24 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\grid\GridView;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Source */
+/* @var $author[] */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
 <div class="source-form">
+
+
 
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'type')
         ->dropDownList(['Buch' => 'Buch', 'Artikel in Zeitschrift' => 'Artikel in Zeitschrift', 'Website' => 'Website']) ?>
 
+    <?= $form->field($model, 'authorId')->dropDownList($author) ?>
 
     <?= $form->field($model, 'title')->textInput(['maxlength' => 45]) ?>
 
@@ -29,7 +34,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'text')->textArea(['rows' => 6]) ?>
 
     <!--
-    <?= $form->field($model, 'authorId')->textInput() ?>
+
     <?= $form->field($model, 'status')->textInput() ?>
     <?= $form->field($model, 'sourceRatingId')->textInput() ?>
     <?= $form->field($model, 'summary')->textInput(['maxlength' => 45]) ?>
@@ -39,5 +44,7 @@ use yii\widgets\ActiveForm;
     </div>
 
     <?php ActiveForm::end(); ?>
+
+
 
 </div>

@@ -80,4 +80,13 @@ class Source extends \yii\db\ActiveRecord
     {
         return $this->hasMany(Sourceproject::className(), ['sourceId' => 'sourceId']);
     }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getRatings() {
+        return $this->hasMany(Rating::className(), ['ratingId' => 'ratingId'])
+            ->viaTable(SourceProject::tableName(), ['sourceId' => 'sourceId']);
+    }
+
 }

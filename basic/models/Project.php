@@ -110,4 +110,9 @@ class Project extends \yii\db\ActiveRecord
             ->viaTable(SourceProject::tableName(), ['projectId' => 'projectid']);
     }
 
+    public function getRatings() {
+        return $this->hasMany(Rating::className(), ['ratingId' => 'ratingId'])
+            ->viaTable(SourceProject::tableName(), ['projectId' => 'projectid']);
+    }
+
 }
