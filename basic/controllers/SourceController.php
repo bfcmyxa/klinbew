@@ -18,6 +18,9 @@ use yii\filters\VerbFilter;
  */
 class SourceController extends Controller
 {
+
+
+
     public function behaviors()
     {
         return [
@@ -79,7 +82,9 @@ class SourceController extends Controller
         $projectModel = Project::findOne($id);
 
         $authors = Author::find()->asArray()->all();
-        $newauthors = [];
+
+        //if here first author is chosen -> crash
+        $newauthors = ['Choose Author...'];
 
         foreach ($authors as $i) {
             array_push($newauthors, $i['name'].' '.$i['fname']);

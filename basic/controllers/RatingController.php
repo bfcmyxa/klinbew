@@ -63,15 +63,18 @@ class RatingController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate($sourceId)
+    public function actionCreate($sourceId, $projectId)
     {
         $model = new Rating();
         $sourceModel = Source::findOne($sourceId);
-        //$projectModel = Project::findOne($projectId);
+        $projectModel = Project::findOne($projectId);
+
+
+
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            $sourceModel->link('ratings', $model);
-            //$projectModel->link('ratings', $model);
+            $projectModel->unlink('sources', $sourceModel, $delete = true);
+            $projectModel->link('ratings', $model, ['sourceId' => $sourceId]);
             return $this->redirect(['index', 'sourceId' => $sourceId]);
         } else {
             return $this->render('create', [

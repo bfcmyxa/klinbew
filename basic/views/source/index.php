@@ -40,6 +40,13 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'status',
             // 'sourceRatingId',
             // 'summary',
+            [
+                'attribute' => 'test_button',
+                'format' => 'raw',
+                'value' => function ($model) {
+                    return Html::a('Bewerten', ['rating/create', 'sourceId' => $model->sourceId, 'projectId' => $_GET['id'] ], ['class' => 'btn btn-primary']);
+                },
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
