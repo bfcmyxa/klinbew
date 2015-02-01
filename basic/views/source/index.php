@@ -37,11 +37,23 @@ $this->params['breadcrumbs'][] = $this->title;
             //'authorId',
             // 'keywords',
             // 'text',
-            // 'status',
             // 'sourceRatingId',
             // 'summary',
             [
-                'attribute' => 'test_button',
+                'attribute' => 'status',
+                'format' => 'raw',
+                'value' => function ($model) {
+                    if ($model->status == 1) {
+                        //return rated
+                        return Html::tag('div', 'Bewertet', ['class' => 'btn btn-success']);
+                    } else {
+                        //return not rated
+                        return Html::tag('div', 'Nicht Bewertet' , ['class' => 'btn btn-danger']);
+                    }
+                },
+            ],
+            [
+                'attribute' => 'rate_button',
                 'format' => 'raw',
                 'value' => function ($model) {
                     return Html::a('Bewerten', ['rating/create', 'sourceId' => $model->sourceId, 'projectId' => $_GET['id'] ], ['class' => 'btn btn-primary']);

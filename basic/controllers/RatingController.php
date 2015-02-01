@@ -68,14 +68,16 @@ class RatingController extends Controller
         $model = new Rating();
         $sourceModel = Source::findOne($sourceId);
         $projectModel = Project::findOne($projectId);
-
+        $model->ratedBy = Yii::$app->user->id;
 
 
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $sourceModel->status = 1;
             $projectModel->unlink('sources', $sourceModel, $delete = true);
             $projectModel->link('ratings', $model, ['sourceId' => $sourceId]);
-            return $this->redirect(['index', 'sourceId' => $sourceId]);
+            $sourceModel->save();
+            return $this->redirect(['source/index', 'id' => $projectId]);
         } else {
             return $this->render('create', [
                 'model' => $model,

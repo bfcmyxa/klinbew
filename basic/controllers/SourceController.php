@@ -90,9 +90,12 @@ class SourceController extends Controller
             array_push($newauthors, $i['name'].' '.$i['fname']);
         }
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            $projectModel->link('sources', $model);
-            return $this->redirect(['index', 'id' => $id]);
+        if ($model->load(Yii::$app->request->post())){
+            $model->status = 0;
+            if($model->save()) {
+                $projectModel->link('sources', $model);
+                return $this->redirect(['index', 'id' => $id]);
+            }
         } else {
             return $this->render('create', [
                 'model' => $model,
