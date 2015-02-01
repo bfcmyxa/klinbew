@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use kartik\slider\Slider;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Rating */
@@ -17,13 +18,40 @@ use yii\widgets\ActiveForm;
     <?=  $form->field($model, 'ratingDate')->textInput() ?>
     -->
 
-    <?= $form->field($model, 'evidenceValue')->textInput() ?>
+    <?= $form->field($model, 'evidenceValue')->widget(Slider::classname(), [
+        'sliderColor'=>Slider::TYPE_GREY,
+        'pluginOptions'=>[
+            'min'=>0,
+            'max'=>12,
+            'step'=>1,
+            'handle'=>'triangle',
+        ]
+    ]);
+    ?>
     <?= $form->field($model, 'evidenceText')->textInput(['maxlength' => 45]) ?>
 
-    <?= $form->field($model, 'relevanceValue')->textInput() ?>
+    <?= $form->field($model, 'relevanceValue')->widget(Slider::classname(), [
+        'sliderColor'=>Slider::TYPE_GREY,
+        'pluginOptions'=>[
+            'min'=>0,
+            'max'=>12,
+            'step'=>1,
+            'handle'=>'triangle',
+        ]
+    ]);
+    ?>
     <?= $form->field($model, 'relevanceText')->textInput(['maxlength' => 45]) ?>
 
-    <?= $form->field($model, 'signValue')->textInput() ?>
+    <?= $form->field($model, 'signValue')->widget(Slider::classname(), [
+        'sliderColor'=>Slider::TYPE_GREY,
+        'pluginOptions'=>[
+            'min'=>0,
+            'max'=>12,
+            'step'=>1,
+            'handle'=>'triangle',
+        ]
+    ]);
+    ?>
     <?= $form->field($model, 'signText')->textInput(['maxlength' => 45]) ?>
 
     <?= $form->field($model, 'use')->textInput() ?>
