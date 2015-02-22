@@ -7,13 +7,13 @@ use yii\widgets\ActiveForm;
 	<div class="col-md-3">
         <h2> Projekt1 </h2>
         <ul>
-          <li>Metadata</li>
-          <li>Referenzen</li>
-          <li>Beschreibung</li>
-          <li>Quellen</li>
-          <li>Zusammenfassung</li>
-          <li>Klassifizierung</li>
-          <li>Exportieren</li>
+            <li>Metadata</li>
+            <li>Referenzen</li>
+            <li>Beschreibung</li>
+            <li>Quellen</li>
+            <li>Zusammenfassung</li>
+            <li>Klassifizierung</li>
+            <li>Exportieren</li>
         </ul>
     </div>
     <div class="col-md-9">

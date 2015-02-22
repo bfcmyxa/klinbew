@@ -8,6 +8,7 @@ use Yii;
  * This is the model class for table "author".
  *
  * @property integer $authorId
+ * @property interger $sourceAuthId
  * @property string $name
  * @property string $fname
  *
@@ -42,14 +43,8 @@ class Author extends \yii\db\ActiveRecord
             'authorId' => 'Author ID',
             'name' => 'Name',
             'fname' => 'Fname',
+            'sourceAuthId' => 'Source Id'
         ];
     }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getSources()
-    {
-        return $this->hasMany(Source::className(), ['authorId' => 'authorId']);
-    }
 }

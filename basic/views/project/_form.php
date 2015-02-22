@@ -5,6 +5,7 @@ use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Project */
+
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

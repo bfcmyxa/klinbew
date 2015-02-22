@@ -20,6 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p>
         <?= Html::a('Neue Quelle hinzufügen', ['create', 'id' => $projectModel->projectid ], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Quellen Importieren (XML)', ['import', 'id' => $projectModel->projectid ], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -43,7 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'status',
                 'format' => 'raw',
                 'value' => function ($model) {
-                    if ($model->status == 1) {
+                    if ($model['status']== 1) {
                         //return rated
                         return Html::tag('div', 'Bewertet', ['class' => 'btn btn-success']);
                     } else {
@@ -56,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'rate_button',
                 'format' => 'raw',
                 'value' => function ($model) {
-                    return Html::a('Bewerten', ['rating/create', 'sourceId' => $model->sourceId, 'projectId' => $_GET['id'] ], ['class' => 'btn btn-primary']);
+                    return Html::a('Bewerten', ['rating/create', 'sourceId' => $model['sourceId'], 'projectId' => $_GET['id'] ], ['class' => 'btn btn-primary']);
                 },
             ],
 

@@ -9,7 +9,6 @@ use Yii;
  *
  * @property integer $sourceId
  * @property string $type
- * @property integer $authorId
  * @property string $title
  * @property integer $year
  * @property string $place
@@ -17,7 +16,6 @@ use Yii;
  * @property string $keywords
  * @property string $text
  * @property integer $status
- * @property integer $sourceRatingId
  * @property string $summary
  *
  * @property Author $author
@@ -39,8 +37,11 @@ class Source extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['authorId', 'year', 'status', 'sourceRatingId'], 'integer'],
-            [['type', 'title', 'place', 'publisher', 'keywords', 'text', 'summary'], 'string', 'max' => 45]
+            [['year', 'status'], 'integer'],
+            [['year'], 'safe'],
+            [['place'], 'string', 'max' => 45],
+            [['type', 'title', 'publisher'], 'string', 'max' => 255],
+            [['keywords', 'text', 'summary'], 'string', 'max' => 10000]
         ];
     }
 
@@ -52,7 +53,6 @@ class Source extends \yii\db\ActiveRecord
         return [
             'sourceId' => 'Source ID',
             'type' => 'Type',
-            'authorId' => 'Author ID',
             'title' => 'Title',
             'year' => 'Year',
             'place' => 'Place',
@@ -67,12 +67,12 @@ class Source extends \yii\db\ActiveRecord
 
     /**
      * @return \yii\db\ActiveQuery
-     */
+
     public function getAuthor()
     {
         return $this->hasOne(Author::className(), ['authorId' => 'authorId']);
     }
-
+     */
     /**
      * @return \yii\db\ActiveQuery
      */
@@ -87,6 +87,10 @@ class Source extends \yii\db\ActiveRecord
     public function getRatings() {
         return $this->hasMany(Rating::className(), ['ratingId' => 'ratingId'])
             ->viaTable(SourceProject::tableName(), ['sourceId' => 'sourceId']);
+    }
+
+    public function getAuthors() {
+        return $this->hasMany(Author::className(), ['sourceId' => 'sourceAuthId']);
     }
 
 }

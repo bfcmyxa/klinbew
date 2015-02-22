@@ -25,7 +25,6 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'sourceId',
             'type',
-            'authorId',
             'title',
             'year',
             'place',
@@ -33,7 +32,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'keywords',
             'text',
             'status',
-            'sourceRatingId',
             'summary',
         ],
     ]) ?>

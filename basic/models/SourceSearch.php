@@ -18,7 +18,7 @@ class SourceSearch extends Source
     public function rules()
     {
         return [
-            [['sourceId', 'authorId', 'year', 'status', 'sourceRatingId'], 'integer'],
+            [['sourceId', 'year', 'status'], 'integer'],
             [['type', 'title', 'place', 'publisher', 'keywords', 'text', 'summary'], 'safe'],
         ];
     }
@@ -57,10 +57,8 @@ class SourceSearch extends Source
 
         $query->andFilterWhere([
             'sourceId' => $this->sourceId,
-            'authorId' => $this->authorId,
             'year' => $this->year,
             'status' => $this->status,
-            'sourceRatingId' => $this->sourceRatingId,
         ]);
 
         $query->andFilterWhere(['like', 'type', $this->type])

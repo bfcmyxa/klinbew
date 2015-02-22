@@ -33,7 +33,8 @@ class ProjectController extends Controller
     public function actionIndex()
     {
         $searchModel = new ProjectSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+       // $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $dataProvider = $searchModel->search([$searchModel->formName() =>['createdBy' => Yii::$app->user->id]]);
 
         return $this->render('index', [
             'searchModel' => $searchModel,
@@ -116,7 +117,7 @@ class ProjectController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             $model->status = 'Description Updated';
             if ($model->save()) {
-                return $this->redirect(['reference/index', 'id' => $id]);
+                return $this->redirect(['view', 'id' => $id]);
             }
         } else {
             return $this->render('description', [
