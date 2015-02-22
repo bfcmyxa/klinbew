@@ -1,0 +1,1973 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2015//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_150101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">25402403</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>11</Month>
+            <Day>18</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>01</Month>
+            <Day>16</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1539-3704</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>161</Volume>
+                    <Issue>10 Suppl</Issue>
+                    <PubDate>
+                        <Year>2014</Year>
+                        <Month>Nov</Month>
+                        <Day>18</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Annals of internal medicine</Title>
+                <ISOAbbreviation>Ann. Intern. Med.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Effectiveness of a smartphone application for weight loss compared with usual care in overweight primary care patients: a randomized, controlled trial.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>S5-12</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.7326/M13-3005</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Many smartphone applications (apps) for weight loss are available, but little is known about their effectiveness.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To evaluate the effect of introducing primary care patients to a free smartphone app for weight loss.</AbstractText>
+                <AbstractText Label="DESIGN" NlmCategory="METHODS">Randomized, controlled trial. (ClinicalTrials.gov: NCT01650337).</AbstractText>
+                <AbstractText Label="SETTING" NlmCategory="METHODS">2 academic primary care clinics.</AbstractText>
+                <AbstractText Label="PATIENTS" NlmCategory="METHODS">212 primary care patients with body mass index of 25 kg/m2 or greater.</AbstractText>
+                <AbstractText Label="INTERVENTION" NlmCategory="METHODS">6 months of usual care without (n = 107) or with (n = 105) assistance in downloading the MyFitnessPal app (MyFitnessPal).</AbstractText>
+                <AbstractText Label="MEASUREMENTS" NlmCategory="METHODS">Weight loss at 6 months (primary outcome) and changes in systolic blood pressure and behaviors, frequency of app use, and satisfaction (secondary outcomes).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">After 6 months, weight change was minimal, with no difference between groups (mean between-group difference, -0.30 kg [95% CI, -1.50 to 0.95 kg]; P = 0.63). Change in systolic blood pressure also did not differ between groups (mean between-group difference, -1.7 mm Hg [CI, -7.1 to 3.8 mm Hg]; P = 0.55). Compared with patients in the control group, those in the intervention group increased use of a personal calorie goal (mean between-group difference, 2.0 d/wk [CI, 1.1 to 2.9 d/wk]; P &lt; 0.001), although other self-reported behaviors did not differ between groups. Most users reported high satisfaction with MyFitnessPal, but logins decreased sharply after the first month.</AbstractText>
+                <AbstractText Label="LIMITATIONS" NlmCategory="CONCLUSIONS">Despite being blinded to the name of the app, 14 control group participants (13%) used MyFitnessPal. In addition, 32% of intervention group participants and 19% of control group participants were lost to follow-up at 6 months. The app was given to patients by research assistants, not by physicians.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Smartphone apps for weight loss may be useful for persons who are ready to self-monitor calories, but introducing a smartphone app is unlikely to produce substantial weight change for most patients.</AbstractText>
+                <AbstractText Label="PRIMARY FUNDING SOURCE" NlmCategory="BACKGROUND">Robert Wood Johnson Foundation Clinical Scholars Program, National Institutes of Health/National Center for Advancing Translational Sciences for the UCLA Clinical and Translational Science Institute, and the Resource Centers for Minority Aging Research Center for Health Improvement of Minority Elderly under the National Institutes of Health/National Institute on Aging.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Laing</LastName>
+                    <ForeName>Brian Yoshio</ForeName>
+                    <Initials>BY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mangione</LastName>
+                    <ForeName>Carol M</ForeName>
+                    <Initials>CM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tseng</LastName>
+                    <ForeName>Chi-Hong</ForeName>
+                    <Initials>CH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leng</LastName>
+                    <ForeName>Mei</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vaisberg</LastName>
+                    <ForeName>Ekaterina</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mahida</LastName>
+                    <ForeName>Megha</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bholat</LastName>
+                    <ForeName>Michelle</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Glazier</LastName>
+                    <ForeName>Eve</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Morisky</LastName>
+                    <ForeName>Donald E</ForeName>
+                    <Initials>DE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bell</LastName>
+                    <ForeName>Douglas S</ForeName>
+                    <Initials>DS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>ClinicalTrials.gov</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>NCT01650337</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P30-AG021684</GrantID>
+                    <Acronym>AG</Acronym>
+                    <Agency>NIA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>UL1TR000124</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016448">Multicenter Study</PublicationType>
+                <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Ann Intern Med</MedlineTA>
+            <NlmUniqueID>0372351</NlmUniqueID>
+            <ISSNLinking>0003-4819</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001794">Blood Pressure</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015992">Body Mass Index</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D040421">Cell Phones</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000656">utilization</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015438">Health Behavior</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D050177">Overweight</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000628">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D017060">Patient Satisfaction</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011320">Primary Health Care</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D012984">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D015431">Weight Loss</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>1</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1935738</ArticleId>
+            <ArticleId IdType="doi">10.7326/M13-3005</ArticleId>
+            <ArticleId IdType="pubmed">25402403</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">25351025</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>10</Month>
+            <Day>29</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>12</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1438-3276</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>156 Suppl 2</Volume>
+                    <PubDate>
+                        <Year>2014</Year>
+                        <Month>Jul</Month>
+                        <Day>24</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>MMW Fortschritte der Medizin</Title>
+                <ISOAbbreviation>MMW Fortschr Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Both patients and physicians benefit from internet-based communication (APIKAP study)].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>31-8</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Internet-based applications are becoming more common in our modern world. While electronic health records (EHR) are available for patients and health care providers outside of Germany, most of the available data on EHR address only monetary advantages.This study explores whether or not internet-based communication between family physicians (FP) and patients is as safe as traditional oral communication and if it may lead to further benefits.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">500 patients from 14 family doctors' offices were included in this 6 months RCT. Both groups were treated in the same manner by their respective physicians, but members of the study group (SG) were able to access an individual developed web-based software where they could view their diagnosis and medication, and send an electronic message to their doctors who would respond. Their satisfication with the FP, certain health data and the FP's workload were recorded.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">a) Patients' satisfaction: When e.g. asked about the organization of the family practice or trust in the doctor, there were no significant differences between the control (CG) and the SG (p = 0.07; p = 0.53). However, patients of the SG felt better informed (p = 0.01), and generally more satisfied with their FP (p = 0.04). b) FP workload: Members of the CG had 8.44 contacts with their doctors during the study, while the SG only had 7.96 recorded contacts (including web-based contacts, p = 0.32). It took physicians 3:52 minutes less to read and respond to an electronic message than to see a patient during the consultation hours. c) Changes in patients' health: During the study the blood pressure (BP) in the CG rose 4.44/2.80 mmHg, while it dropped 3.13/4.36 mmHg in the SG (p = 0.19/0.01).The HbA(1C) dropped in both groups (p = 0.91). One week after the first visit to the family doctor, patients of the SG rated their pain 0.28 points lower on a VAS than the CG (p = 0.75). 91% from the CG and 96% from the SG requested the re-prescription of long-term medication on time (p = 0.16).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Using an optional web-based communication platform is as safe as traditional consultations can be. Both patients and doctors may benefit from using the internet in this context.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gersch</LastName>
+                    <ForeName>Christian</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ebel</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ger</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D004740">English Abstract</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+            </PublicationTypeList>
+            <VernacularTitle>Hausärzte und Patienten profitieren von internetbasierter Kommunikation (APIKAP-Studie).</VernacularTitle>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>MMW Fortschr Med</MedlineTA>
+            <NlmUniqueID>100893959</NlmUniqueID>
+            <ISSNLinking>1438-3276</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001291">Attitude of Health Personnel</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D002908">Chronic Disease</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000628">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D003142">Communication</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016494">Computer Security</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D057286">Electronic Health Records</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D058006">General Practice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" Type="Geographic" UI="D005858">Germany</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D020407">Internet</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D010349">Patient Compliance</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D010353">Patient Education as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D017060">Patient Satisfaction</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D010817">Physician-Patient Relations</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012984">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D017216">Telemedicine</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D013996">Time and Motion Studies</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>10</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>10</Month>
+                <Day>30</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25351025</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">24985342</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>07</Month>
+            <Day>11</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>10</Month>
+            <Day>14</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2014</Year>
+            <Month>11</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1940-0640</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>9</Volume>
+                    <PubDate>
+                        <Year>2014</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Addiction science &amp; clinical practice</Title>
+                <ISOAbbreviation>Addict Sci Clin Pract</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mobile phone brief intervention applications for risky alcohol use among university students: a randomized controlled study.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>11</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1940-0640-9-11</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Brief interventions via the internet have been shown to reduce university students' alcohol intake. This study tested two smartphone applications (apps) targeting drinking choices on party occasions, with the goal of reducing problematic alcohol intake among Swedish university students.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Students were recruited via e-mails sent to student union members at two universities. Those who gave informed consent, had a smartphone, and showed risky alcohol consumption according to the Alcohol Use Disorders Identification Test (AUDIT) were randomized into three groups. Group 1 had access to the Swedish government alcohol monopoly's app, Promillekoll, offering real-time estimated blood alcohol concentration (eBAC) calculation; Group 2 had access to a web-based app, PartyPlanner, developed by the research group, offering real-time eBAC calculation with planning and follow-up functions; and Group 3 participants were controls. Follow-up was conducted at 7 weeks.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Among 28574 students offered participation, 4823 agreed to join; 415 were excluded due to incomplete data, and 1932 fulfilled eligibility criteria for randomization. Attrition was 22.7-39.3 percent, higher among heavier drinkers and highest in Group 2. Self-reported app use was higher in Group 1 (74%) compared to Group 2 (41%). Per-protocol analyses revealed only one significant time-by-group interaction, where Group 1 participants increased the frequency of their drinking occasions compared to controls (p = 0.001). Secondary analyses by gender showed a significant difference among men in Group 1 for frequency of drinking occasions per week (p = 0.001), but not among women. Among all participants, 29 percent showed high-risk drinking, over the recommended weekly drinking levels of 9 (women) and 14 (men) standard glasses.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Smartphone apps can make brief interventions available to large numbers of university students. The apps studied using eBAC calculation did not, however, seem to affect alcohol consumption among university students and one app may have led to a negative effect among men. Future research should: 1) explore ways to increase user retention, 2) include apps facilitating technical manipulation for evaluation of added components, 3) explore the effects of adapting app content to possible gender differences, and 4) offer additional interventions to high-risk users.</AbstractText>
+                <AbstractText Label="TRIAL REGISTRATION" NlmCategory="BACKGROUND">clinicaltrials.gov: NCT01958398.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gajecki</LastName>
+                    <ForeName>Mikael</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Karolinska Institutet, Department of Clinical Neuroscience, Center for Psychiatric Research, Stockholm, Sweden. mikael.gajecki@ki.se.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Berman</LastName>
+                    <ForeName>Anne H</ForeName>
+                    <Initials>AH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sinadinovic</LastName>
+                    <ForeName>Kristina</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rosendahl</LastName>
+                    <ForeName>Ingvar</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Andersson</LastName>
+                    <ForeName>Claes</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>ClinicalTrials.gov</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>NCT01958398</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>07</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Addict Sci Clin Pract</MedlineTA>
+            <NlmUniqueID>101316917</NlmUniqueID>
+            <ISSNLinking>1940-0632</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>3K9958V90M</RegistryNumber>
+                <NameOfSubstance UI="D000431">Ethanol</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lakartidningen. 2003 Mar 20;100(12):1028-30, 1033-5</RefSource>
+                <PMID Version="1">12693135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addiction. 2004 Jan;99(1):103-8</RefSource>
+                <PMID Version="1">14678068</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Consult Clin Psychol. 1985 Apr;53(2):189-200</RefSource>
+                <PMID Version="1">3998247</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Consult Clin Psychol. 1992 Dec;60(6):974-9</RefSource>
+                <PMID Version="1">1460160</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addiction. 1993 Mar;88(3):315-35</RefSource>
+                <PMID Version="1">8461850</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addiction. 1993 Jun;88(6):791-804</RefSource>
+                <PMID Version="1">8329970</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Subst Abuse Treat. 1994 Mar-Apr;11(2):143-54</RefSource>
+                <PMID Version="1">8040918</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gen Intern Med. 1997 May;12(5):274-83</RefSource>
+                <PMID Version="1">9159696</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Stud Alcohol Drugs. 2007 Jan;68(1):106-14</RefSource>
+                <PMID Version="1">17149524</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addict Behav. 2007 Nov;32(11):2439-68</RefSource>
+                <PMID Version="1">17604915</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addict Behav. 2007 Nov;32(11):2529-48</RefSource>
+                <PMID Version="1">17707594</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Alcohol Alcohol. 2007 Sep-Oct;42(5):448-55</RefSource>
+                <PMID Version="1">17360719</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Addict Behav. 2007 Dec;21(4):498-507</RefSource>
+                <PMID Version="1">18072832</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Subst Abuse Treat. 2008 Apr;34(3):263-71</RefSource>
+                <PMID Version="1">17600650</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addict Behav. 2008 Aug;33(8):994-1005</RefSource>
+                <PMID Version="1">18538484</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Drug Educ. 2008;38(3):211-24</RefSource>
+                <PMID Version="1">19157041</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Prev Med. 2009 Mar;36(3):247-55</RefSource>
+                <PMID Version="1">19215850</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cochrane Database Syst Rev. 2009;(3):CD006748</RefSource>
+                <PMID Version="1">19588402</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addict Behav. 2009 Nov;34(11):911-7</RefSource>
+                <PMID Version="1">19540676</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addiction. 2009 Nov;104(11):1807-19</RefSource>
+                <PMID Version="1">19744139</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Brain Res. 2009 Dec 11;1305 Suppl:S61-71</RefSource>
+                <PMID Version="1">19699184</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addict Behav. 2010 May;35(5):464-70</RefSource>
+                <PMID Version="1">20092953</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Community Health. 2010 Apr;35(2):172-81</RefSource>
+                <PMID Version="1">20013062</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addiction. 2010 Jun;105(6):954-9</RefSource>
+                <PMID Version="1">20121717</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2010;12(5):e62</RefSource>
+                <PMID Version="1">21169175</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Coll Health. 2010;59(3):151-8</RefSource>
+                <PMID Version="1">21186444</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Addiction. 2011 Feb;106(2):267-82</RefSource>
+                <PMID Version="1">21083832</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drug Alcohol Depend. 2011 Mar 1;114(1):55-60</RefSource>
+                <PMID Version="1">21030164</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Alcohol Alcohol. 2011 Mar-Apr;46(2):105-12</RefSource>
+                <PMID Version="1">21169612</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2011;6(3):e14740</RefSource>
+                <PMID Version="1">21408060</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Addict. 2011 Sep-Oct;20(5):468-75</RefSource>
+                <PMID Version="1">21838847</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drug Alcohol Depend. 2011 Nov 1;118(2-3):504-7</RefSource>
+                <PMID Version="1">21612879</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Alcohol Clin Exp Res. 2011 Dec;35(12):2209-15</RefSource>
+                <PMID Version="1">21689119</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2013;15(6):e110</RefSource>
+                <PMID Version="1">23742808</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Alcohol Alcohol. 2002 May-Jun;37(3):245-51</RefSource>
+                <PMID Version="1">12003912</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Stud Alcohol Suppl. 2002 Mar;(14):148-63</RefSource>
+                <PMID Version="1">12022721</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000293">Adolescent</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000437">Alcoholism</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000453">epidemiology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000534">rehabilitation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D040421">Cell Phones</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D003376">Counseling</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000431">Ethanol</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D033182">Intention</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D020407">Internet</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D063731">Mobile Applications</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012648">Self Care</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D012984">Software</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D013334">Students</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000523">psychology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000706">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" Type="Geographic" UI="D013548">Sweden</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D013813">Therapy, Computer-Assisted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D055815">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4091647</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2014</Year>
+                <Month>6</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2014</Year>
+                <Month>7</Month>
+                <Day>2</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>7</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>7</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>10</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1940-0640-9-11</ArticleId>
+            <ArticleId IdType="doi">10.1186/1940-0640-9-11</ArticleId>
+            <ArticleId IdType="pubmed">24985342</ArticleId>
+            <ArticleId IdType="pmc">PMC4091647</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">24886225</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>06</Month>
+            <Day>04</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>02</Month>
+            <Day>19</Day>
+        </DateCompleted>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1745-6215</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>15</Volume>
+                    <PubDate>
+                        <Year>2014</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Trials</Title>
+                <ISOAbbreviation>Trials</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Effectiveness and cost-effectiveness of telehealthcare for chronic obstructive pulmonary disease: study protocol for a cluster randomized controlled trial.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>178</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1186/1745-6215-15-178</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Several feasibility studies show promising results of telehealthcare on health outcomes and health-related quality of life for patients suffering from chronic obstructive pulmonary disease, and some of these studies show that telehealthcare may even lower healthcare costs. However, the only large-scale trial we have so far - the Whole System Demonstrator Project in England - has raised doubts about these results since it conclude that telehealthcare as a supplement to usual care is not likely to be cost-effective compared with usual care alone.</AbstractText>
+                <AbstractText Label="METHODS/DESIGN" NlmCategory="METHODS">The present study is known as 'TeleCare North' in Denmark. It seeks to address these doubts by implementing a large-scale, pragmatic, cluster-randomized trial with nested economic evaluation. The purpose of the study is to assess the effectiveness and the cost-effectiveness of a telehealth solution for patients suffering from chronic obstructive pulmonary disease compared to usual practice. General practitioners will be responsible for recruiting eligible participants (1,200 participants are expected) for the trial in the geographical area of the North Denmark Region. Twenty-six municipality districts in the region define the randomization clusters. The primary outcomes are changes in health-related quality of life, and the incremental cost-effectiveness ratio measured from baseline to follow-up at 12 months. Secondary outcomes are changes in mortality and physiological indicators (diastolic and systolic blood pressure, pulse, oxygen saturation, and weight).</AbstractText>
+                <AbstractText Label="DISCUSSION" NlmCategory="CONCLUSIONS">There has been a call for large-scale clinical trials with rigorous cost-effectiveness assessments in telehealthcare research. This study is meant to improve the international evidence base for the effectiveness and cost-effectiveness of telehealthcare to patients suffering from chronic obstructive pulmonary disease by implementing a large-scale pragmatic cluster-randomized clinical trial.</AbstractText>
+                <AbstractText Label="TRIAL REGISTRATION" NlmCategory="BACKGROUND">Clinicaltrials.gov, http://NCT01984840, November 14, 2013.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Udsen</LastName>
+                    <ForeName>Flemming Witt</ForeName>
+                    <Initials>FW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Danish Centre for Healthcare Improvements, Aalborg University, Fibigerstraede 11, 9220 Aalborg Ø, Denmark. fwu@business.aau.dk.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lilholt</LastName>
+                    <ForeName>Pernille Heyckendorff</ForeName>
+                    <Initials>PH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hejlesen</LastName>
+                    <ForeName>Ole</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ehlers</LastName>
+                    <ForeName>Lars Holger</ForeName>
+                    <Initials>LH</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>ClinicalTrials.gov</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>NCT01984840</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016448">Multicenter Study</PublicationType>
+                <PublicationType UI="D065007">Pragmatic Clinical Trial</PublicationType>
+                <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>05</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Trials</MedlineTA>
+            <NlmUniqueID>101263253</NlmUniqueID>
+            <ISSNLinking>1745-6215</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015415">Biological Markers</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>S88TT14065</RegistryNumber>
+                <NameOfSubstance UI="D010100">Oxygen</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Telemed Telecare. 2010;16(3):120-7</RefSource>
+                <PMID Version="1">20197355</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Scand J Public Health. 2009 Jul;37(5):459-66</RefSource>
+                <PMID Version="1">19411320</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ugeskr Laeger. 2012 Apr 2;174(14):936-42</RefSource>
+                <PMID Version="1">22469162</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Telemed Telecare. 2012 Jun;18(4):221-5</RefSource>
+                <PMID Version="1">22653618</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2012;344:e3874</RefSource>
+                <PMID Version="1">22723612</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2012;345:e5661</RefSource>
+                <PMID Version="1">22951546</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Telemed J E Health. 2012 Nov;18(9):688-92</RefSource>
+                <PMID Version="1">23020647</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Gen Pract. 2012 Nov;62(604):e739-49</RefSource>
+                <PMID Version="1">23211177</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2013;346:f1035</RefSource>
+                <PMID Version="1">23520339</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Inf Technol Biomed. 2006 Jul;10(3):567-73</RefSource>
+                <PMID Version="1">16871726</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Fam Med. 2000 Jan;9(1):40-5</RefSource>
+                <PMID Version="1">10664641</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Scand J Caring Sci. 2013 Dec;27(4):905-12</RefSource>
+                <PMID Version="1">23121503</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Crit Care Med. 2007 Sep 15;176(6):532-55</RefSource>
+                <PMID Version="1">17507545</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ugeskr Laeger. 2007 Nov 12;169(46):3956-60</RefSource>
+                <PMID Version="1">18078648</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Respir J. 2009 Feb;33(2):411-8</RefSource>
+                <PMID Version="1">18799512</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Respir J. 2009 May;33(5):1031-8</RefSource>
+                <PMID Version="1">19129289</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2009;338:b2393</RefSource>
+                <PMID Version="1">19564179</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cochrane Database Syst Rev. 2011;(7):CD007718</RefSource>
+                <PMID Version="1">21735417</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015415">Biological Markers</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001794">Blood Pressure</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001835">Body Weight</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D034201">Computers, Handheld</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000191">economics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D003362">Cost-Benefit Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" Type="Geographic" UI="D003718">Denmark</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D003936">Diagnosis, Computer-Assisted</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000191">economics</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000295">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D018450">Disease Progression</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D017048">Health Care Costs</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006304">Health Status</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D010100">Oxygen</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D029424">Pulmonary Disease, Chronic Obstructive</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000175">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000191">economics</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000401">mortality</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000628">therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011788">Quality of Life</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D019114">Remote Consultation</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000191">economics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012984">Software</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000191">economics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D017216">Telemedicine</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000191">economics</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000295">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D013997">Time Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016896">Treatment Outcome</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4039321</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>2</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>6</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>6</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1745-6215-15-178</ArticleId>
+            <ArticleId IdType="doi">10.1186/1745-6215-15-178</ArticleId>
+            <ArticleId IdType="pubmed">24886225</ArticleId>
+            <ArticleId IdType="pmc">PMC4039321</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID Version="1">24831288</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>05</Month>
+            <Day>16</Day>
+        </DateCreated>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1545-1151</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <PubDate>
+                        <Year>2014</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Preventing chronic disease</Title>
+                <ISOAbbreviation>Prev Chronic Dis</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Effectiveness of a community-based individualized lifestyle intervention among older adults with diabetes and hypertension, Tianjin, China, 2008-2009.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>E84</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.5888/pcd11.120333</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION" NlmCategory="BACKGROUND">Though diet and exercise modification is effective in preventing diabetes and hypertension, community-based models for lifestyle intervention for managing these conditions that are practical and effective are few.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A community-based lifestyle intervention trial was conducted in 5 community clinics in Tianjin, China. Trained physicians used energy monitors and software as tools to provide eight individualized lifestyle consultation sessions (zhiji management) to 273 residents with mild hypertension (including prehypertension) or diabetes (including prediabetes). The recruitment was based on a waitlist control design. The early group (n = 175) received the 3-month intervention and the late group served as controls; afterward, the early group was followed up while the late group received the 3-month intervention. Selected characteristics between the 2 groups were compared by χ(2) tests, continuous variables paired t tests, and independent t tests.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Compared with baseline, the intervention significantly increased effective (3-6 metabolic equivalents and &gt;6 minutes) physical activity by 54.6 kilocalories per day (P &lt; .01) and decreased total dietary intake by 328.5 kilocalories per day (P &lt; .01). The net differences between early group (intervention) and late group (control phase) were significant (P &lt; .01) for weight, waist circumference, systolic and diastolic blood pressure, 2-hour postprandial glucose, and hemoglobin A1c.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This community-based lifestyle zhiji management program produced short-term beneficial changes in activity, diet, and clinical parameters in patients with mild diabetes or hypertension. Larger and longer trials are needed to fully evaluate the effectiveness and feasibility of this model.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Ruijun</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Tianjin Health Insurance Research Association, Tianjin, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yan</LastName>
+                    <ForeName>Lijing L</ForeName>
+                    <Initials>LL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The George Institute for Global Health at Peking University Health Science Center, Beijing, China, and Northwestern University, Chicago, Illinois.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Hanliang</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Health Promotion Working Committee, National Center for Medical Education Development, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ke</LastName>
+                    <ForeName>Liang</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The George Institute for Global Health at Peking University Health Science Center, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Zhou</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Health Promotion Working Committee, National Center for Medical Education Development, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gong</LastName>
+                    <ForeName>Enying</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The George Institute for Global Health at Peking University Health Science Center, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guo</LastName>
+                    <ForeName>Hui</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The George Institute for Global Health at Peking University Health Science Center, Beijing, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Tianjin Health Insurance Research Association, Tianjin, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gu</LastName>
+                    <ForeName>Yuting</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Rehabilitation, The First Affiliated Hospital of Tianjin Chinese Traditional Medicine University, Tianjin, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Yangfeng</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The George Institute for Global Health at Peking University Health Science Center, Floor 18, Tower B, Horizon Tower, No. 6 Zhichun Road, Haidian, Beijing, 100088 China. E-mail: ywu@georgeinstitute.org.cn.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D018848">Controlled Clinical Trial</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>05</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Prev Chronic Dis</MedlineTA>
+            <NlmUniqueID>101205018</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Res Clin Pract. 2001 Apr;52(1):29-43</RefSource>
+                <PMID Version="1">11182214</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nutr Metab Cardiovasc Dis. 2013 Nov;23(11):1147-53</RefSource>
+                <PMID Version="1">23462149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2002 Oct 9;288(14):1775-9</RefSource>
+                <PMID Version="1">12365965</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2002 Oct 16;288(15):1909-14</RefSource>
+                <PMID Version="1">12377092</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2003 Dec;26(12):3230-6</RefSource>
+                <PMID Version="1">14633807</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Sci Sports Exerc. 1993 Jan;25(1):71-80</RefSource>
+                <PMID Version="1">8292105</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Sci Sports Exerc. 1998 Jul;30(7):1076-83</RefSource>
+                <PMID Version="1">9662676</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 1999 Jan 27;281(4):327-34</RefSource>
+                <PMID Version="1">9929085</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes. 2005 Jan;54(1):158-65</RefSource>
+                <PMID Version="1">15616024</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetologia. 2006 Feb;49(2):289-97</RefSource>
+                <PMID Version="1">16391903</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2006 Apr;29(4):811-7</RefSource>
+                <PMID Version="1">16567820</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2006 Jul;29(7):1605-12</RefSource>
+                <PMID Version="1">16801586</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Educ. 2007 Jan-Feb;33(1):69, 74-5, 77-8</RefSource>
+                <PMID Version="1">17272794</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gen Intern Med. 2007 Dec;22(12):1695-703</RefSource>
+                <PMID Version="1">17922167</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2008 Apr;31(4):684-9</RefSource>
+                <PMID Version="1">18252904</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetes Care. 2008 Jun;31(6):1097-104</RefSource>
+                <PMID Version="1">18316397</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Behav Med. 2008 Jun;35(3):351-7</RefSource>
+                <PMID Version="1">18568379</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Board Fam Med. 2009 Sep-Oct;22(5):535-43</RefSource>
+                <PMID Version="1">19734400</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 2010 Sep 27;170(17):1566-75</RefSource>
+                <PMID Version="1">20876408</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Prev Med. 2012 Jun;54(6):371-80</RefSource>
+                <PMID Version="1">22521997</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Diabetologia. 2013 Feb;56(2):284-93</RefSource>
+                <PMID Version="1">23093136</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2002 Feb 7;346(6):393-403</RefSource>
+                <PMID Version="1">11832527</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <OtherID Source="NLM">PMC4023677</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.5888/pcd11.120333</ArticleId>
+            <ArticleId IdType="pii">E84</ArticleId>
+            <ArticleId IdType="pubmed">24831288</ArticleId>
+            <ArticleId IdType="pmc">PMC4023677</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">24821891</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>05</Month>
+            <Day>13</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>02</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1544-1717</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <MedlineDate>2014 May-Jun</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Annals of family medicine</Title>
+                <ISOAbbreviation>Ann Fam Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Sociopsychological tailoring to address colorectal cancer screening disparities: a randomized controlled trial.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>204-14</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1370/afm.1623</ELocationID>
+            <Abstract>
+                <AbstractText Label="PURPOSE" NlmCategory="OBJECTIVE">Interventions tailored to sociopsychological factors associated with health behaviors have promise for reducing colorectal cancer screening disparities, but limited research has assessed their impact in multiethnic populations. We examined whether an interactive multimedia computer program (IMCP) tailored to expanded health belief model sociopsychological factors could promote colorectal cancer screening in a multiethnic sample.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We undertook a randomized controlled trial, comparing an IMCP tailored to colorectal cancer screening self-efficacy, knowledge, barriers, readiness, test preference, and experiences with a nontailored informational program, both delivered before office visits. The primary outcome was record-documented colorectal cancer screening during a 12-month follow-up period. Secondary outcomes included postvisit sociopsychological factor status and discussion, as well as clinician recommendation of screening during office visits. We enrolled 1,164 patients stratified by ethnicity and language (49.3% non-Hispanic, 27.2% Hispanic/English, 23.4% Hispanic/Spanish) from 26 offices around 5 centers (Sacramento, California; Rochester and the Bronx, New York; Denver, Colorado; and San Antonio, Texas).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Adjusting for ethnicity/language, study center, and the previsit value of the dependent variable, compared with control patients, the IMCP led to significantly greater colorectal cancer screening knowledge, self-efficacy, readiness, test preference specificity, discussion, and recommendation. During the followup period, 132 (23%) IMCP and 123 (22%) control patients received screening (adjusted difference = 0.5 percentage points, 95% CI -4.3 to 5.3). IMCP effects did not differ significantly by ethnicity/language.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Sociopsychological factor tailoring was no more effective than nontailored information in encouraging colorectal cancer screening in a multiethnic sample, despite enhancing sociopsychological factors and visit behaviors associated with screening. The utility of sociopsychological tailoring in addressing screening disparities remains uncertain.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jerant</LastName>
+                    <ForeName>Anthony</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Family and Community Medicine, University of California Davis, Sacramento, California (Jerant, Franks); Center for Healthcare Policy and Research, University of California Davis, Sacramento, California (Jerant, Kravitz, Tancredi, Franks); Division of General Internal Medicine, University of California Davis, Sacramento, California (Kravitz); Department of Community Health and Social Medicine, Sophie Davis School of Biomedical Education of The City College of New York, New York, New York (Sohler); Department of Family Medicine and Community and Preventive Medicine, University of Rochester, Rochester, New York (Fiscella); Department of Family and Community Medicine, University of Texas Health Science Center at San Antonio, San Antonio, Texas (Romero); Department of Family Medicine, University of Colorado, Denver, Colorado (Parnes); Department of Pediatrics, University of California Davis, Sacramento, California (Tancredi); Department of Internal Medicine, University of California Davis, Sacramento, California (Aguilar-Gaxiola); Center for Reducing Health Disparities, University of California Davis, Sacramento, California (Aguilar-Gaxiola); University of California Davis Medical Center, Sacramento, California (Slee); IET-Academic Technology Services, University of California Davis, Davis, California (Dvorak, Turner); Sutter Medical Foundation, Sacramento, California (Hudnut, Prieto).</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kravitz</LastName>
+                    <ForeName>Richard L</ForeName>
+                    <Initials>RL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sohler</LastName>
+                    <ForeName>Nancy</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fiscella</LastName>
+                    <ForeName>Kevin</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Romero</LastName>
+                    <ForeName>Raquel L</ForeName>
+                    <Initials>RL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Parnes</LastName>
+                    <ForeName>Bennett</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tancredi</LastName>
+                    <ForeName>Daniel J</ForeName>
+                    <Initials>DJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aguilar-Gaxiola</LastName>
+                    <ForeName>Sergio</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Slee</LastName>
+                    <ForeName>Christina</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dvorak</LastName>
+                    <ForeName>Simon</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Turner</LastName>
+                    <ForeName>Charles</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hudnut</LastName>
+                    <ForeName>Andrew</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Prieto</LastName>
+                    <ForeName>Francisco</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Franks</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>CA13138602S1</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01CA131386</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016448">Multicenter Study</PublicationType>
+                <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Ann Fam Med</MedlineTA>
+            <NlmUniqueID>101167762</NlmUniqueID>
+            <ISSNLinking>1544-1709</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 2008 Jun 23;168(12):1317-24</RefSource>
+                <PMID Version="1">18574089</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Epidemiol Biomarkers Prev. 2011 Aug;20(8):1611-21</RefSource>
+                <PMID Version="1">21653643</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Behav Med. 2011 Dec;42(3):294-303</RefSource>
+                <PMID Version="1">21826576</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Board Fam Med. 2011 Nov-Dec;24(6):673-81</RefSource>
+                <PMID Version="1">22086810</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Prev Med. 2012 Jul;43(1):97-118</RefSource>
+                <PMID Version="1">22704754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Educ Res. 2012 Oct;27(5):868-85</RefSource>
+                <PMID Version="1">22926008</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Patient Educ Couns. 2013 Jan;90(1):103-10</RefSource>
+                <PMID Version="1">22985627</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Epidemiol Biomarkers Prev. 2013 Jan;22(1):109-17</RefSource>
+                <PMID Version="1">23118143</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Internet Res. 2013;15(1):e23</RefSource>
+                <PMID Version="1">23363466</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA Intern Med. 2013 Jan 28;173(2):122-9</RefSource>
+                <PMID Version="1">23128366</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Prev Med. 2013 Apr;44(4):325-9</RefSource>
+                <PMID Version="1">23498096</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Patient Educ Couns. 2013 Aug;92(2):260-5</RefSource>
+                <PMID Version="1">23541216</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2013 Nov 6;310(17):1818-28</RefSource>
+                <PMID Version="1">24193079</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Natl Cancer Inst Monogr. 1999;(25):67-80</RefSource>
+                <PMID Version="1">10854460</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2002 Feb 9;359(9305):515-9</RefSource>
+                <PMID Version="1">11853818</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc AMIA Symp. 2002;:410-4</RefSource>
+                <PMID Version="1">12463857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Psychol. 2008 Jul;27(4):409-18</RefSource>
+                <PMID Version="1">18642998</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gen Intern Med. 2008 Aug;23(8):1241-5</RefSource>
+                <PMID Version="1">18500503</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Care. 2008 Sep;46(9 Suppl 1):S123-31</RefSource>
+                <PMID Version="1">18725824</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychooncology. 2008 Oct;17(10):1014-23</RefSource>
+                <PMID Version="1">18300337</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Intern Med. 2008 Nov 4;149(9):627-37</RefSource>
+                <PMID Version="1">18838716</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Behav Med. 2009 Apr;37(2):207-17</RefSource>
+                <PMID Version="1">19418107</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Educ Res. 2009 Aug;24(4):699-720</RefSource>
+                <PMID Version="1">19286893</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Prev Med. 2010 Jul;39(1):1-14</RefSource>
+                <PMID Version="1">20547275</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Prev Med. 2010 Sep-Oct;51(3-4):214-21</RefSource>
+                <PMID Version="1">20558196</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Prev Med. 2011 Jun;40(6):608-15</RefSource>
+                <PMID Version="1">21565651</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Behav Med. 2011 Jun;41(3):284-99</RefSource>
+                <PMID Version="1">21271365</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Patient Educ Couns. 1999 Jun;37(2):125-40</RefSource>
+                <PMID Version="1">14528540</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pers Soc Psychol. 2004 Mar;86(3):388-404</RefSource>
+                <PMID Version="1">15008644</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Health Commun. 2004 Mar-Apr;9(2):127-41</RefSource>
+                <PMID Version="1">15204824</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pers Soc Psychol. 1987 Dec;53(6):1024-37</RefSource>
+                <PMID Version="1">3320334</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Educ Q. 1988 Summer;15(2):175-83</RefSource>
+                <PMID Version="1">3378902</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Soc Sci Med. 1989;28(8):819-28</RefSource>
+                <PMID Version="1">2649994</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Chest Med. 1991 Dec;12(4):727-35</RefSource>
+                <PMID Version="1">1747990</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Care. 1996 Mar;34(3):220-33</RefSource>
+                <PMID Version="1">8628042</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer. 1995 Jul 15;76(2):167-77</RefSource>
+                <PMID Version="1">8625088</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Epidemiol Biomarkers Prev. 1997 Oct;6(10):825-32</RefSource>
+                <PMID Version="1">9332766</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Oncol. 2005 Mar 1;23(7):1548-54</RefSource>
+                <PMID Version="1">15735130</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Gen Intern Med. 2005 Nov;20(11):989-95</RefSource>
+                <PMID Version="1">16307622</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Health Commun. 2005;10 Suppl 1:83-104</RefSource>
+                <PMID Version="1">16377602</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Fam Pract. 2006;7:21</RefSource>
+                <PMID Version="1">16563164</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Intern Med. 2006 Apr 18;144(8):563-71</RefSource>
+                <PMID Version="1">16618953</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Patient Educ Couns. 2007 Apr;66(1):67-74</RefSource>
+                <PMID Version="1">17156968</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Bull. 2007 Jul;133(4):673-93</RefSource>
+                <PMID Version="1">17592961</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Detect Prev. 2007;31(3):191-8</RefSource>
+                <PMID Version="1">17646058</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Patient Educ Couns. 2007 Oct;68(2):145-52</RefSource>
+                <PMID Version="1">17517486</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Prev Med. 2007 Oct;45(4):267-73</RefSource>
+                <PMID Version="1">17689600</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer. 2007 Nov 1;110(9):2083-91</RefSource>
+                <PMID Version="1">17893869</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer. 2008 Feb 15;112(4):779-88</RefSource>
+                <PMID Version="1">18098272</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Patient Educ Couns. 2008 May;71(2):215-27</RefSource>
+                <PMID Version="1">18308500</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Behav Med. 2008 Apr;35(2):159-69</RefSource>
+                <PMID Version="1">18401673</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Educ Res. 2008 Jun;23(3):454-66</RefSource>
+                <PMID Version="1">18349033</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Health Psychol. 2011 Jul;30(4):481-91</RefSource>
+                <PMID Version="1">21744967</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Patient Educ Couns. 2011 Nov;85(2):323-30</RefSource>
+                <PMID Version="1">21146950</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000368">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D003113">Colonoscopy</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000706">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015179">Colorectal Neoplasms</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000175">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D055088">Early Detection of Cancer</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000379">methods</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006266">Health Education</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007722">Health Knowledge, Attitudes, Practice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006293">Health Promotion</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D054625">Healthcare Disparities</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000706">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006630">Hispanic Americans</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000706">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D009780">Occult Blood</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011584">Psychology</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D020377">Self Efficacy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012812">Sigmoidoscopy</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000523">psychology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000706">statistics &amp; numerical data</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4018368</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Hispanic Americans</Keyword>
+            <Keyword MajorTopicYN="N">colorectal neoplasms</Keyword>
+            <Keyword MajorTopicYN="N">computer-assisted instruction</Keyword>
+            <Keyword MajorTopicYN="N">early detection of cancer</Keyword>
+            <Keyword MajorTopicYN="N">expanded health belief model</Keyword>
+            <Keyword MajorTopicYN="N">health behavior</Keyword>
+            <Keyword MajorTopicYN="N">health care disparities</Keyword>
+            <Keyword MajorTopicYN="N">health education</Keyword>
+            <Keyword MajorTopicYN="N">health promotion</Keyword>
+            <Keyword MajorTopicYN="N">outcome and process assessment (health care)</Keyword>
+            <Keyword MajorTopicYN="N">patient acceptance of health care</Keyword>
+            <Keyword MajorTopicYN="N">randomized controlled trial</Keyword>
+            <Keyword MajorTopicYN="N">software</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">12/3/204</ArticleId>
+            <ArticleId IdType="doi">10.1370/afm.1623</ArticleId>
+            <ArticleId IdType="pubmed">24821891</ArticleId>
+            <ArticleId IdType="pmc">PMC4018368</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">24806568</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>05</Month>
+            <Day>08</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>01</Month>
+            <Day>16</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1536-5948</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>56</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2014</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of occupational and environmental medicine / American College of Occupational and Environmental Medicine</Title>
+                <ISOAbbreviation>J. Occup. Environ. Med.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Heart healthy online: an innovative approach to risk reduction in the workplace.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>547-53</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1097/JOM.0000000000000148</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">To examine whether a Web-based cardiovascular health promotion program was associated with changes in self-reported behaviors, attitudes, and biometric indicators in a population of working adults.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Employees (n = 210) were recruited and randomized into either an Internet-based or control condition. Participants completed pre- and postintervention self-report assessments on diet, exercise, smoking, and mental health. Pre- and postintervention biometric screenings were also obtained on blood pressure, heart rate, weight, and hip/waist circumference.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The intervention was associated with significant improvements in dietary attitudes (P = 0.003; F = 8.83), dietary intentions (P = 0.031; F = 4.72), dietary self-efficacy (P = 0.015; F = 5.97), exercise self-efficacy (P = 0.002; F = 9.51), exercise habits (P = 0.016; F = 5.94), and coping with stress (P = 0.003; F = 8.85) and depression (P = 0.036; F = 4.46).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The program showed promise for promoting cardiovascular risk reduction behaviors. These results are consistent with similar Web-based interventions.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Deitz</LastName>
+                    <ForeName>Diane</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>From ISA Associates, Inc, Alexandria, Va.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cook</LastName>
+                    <ForeName>Royer F</ForeName>
+                    <Initials>RF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hersch</LastName>
+                    <ForeName>Rebekah K</ForeName>
+                    <Initials>RK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leaf</LastName>
+                    <ForeName>Samantha</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R44 HL087540</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R44HL087540</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Occup Environ Med</MedlineTA>
+            <NlmUniqueID>9504688</NlmUniqueID>
+            <ISSNLinking>1076-2752</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000368">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" Type="Geographic" UI="D001061">Appalachian Region</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001699">Biometry</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D002318">Cardiovascular Diseases</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000517">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006293">Health Promotion</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D020407">Internet</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D016272">Occupational Health</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D010564">Personnel, Hospital</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D040242">Risk Reduction Behavior</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D014584">User-Computer Interface</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D055815">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">NIHMS609967 [Available on 05/01/15]</OtherID>
+        <OtherID Source="NLM">PMC4123452 [Available on 05/01/15]</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>1</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2015</Year>
+                <Month>5</Month>
+                <Day>1</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1097/JOM.0000000000000148</ArticleId>
+            <ArticleId IdType="pii">00043764-201405000-00014</ArticleId>
+            <ArticleId IdType="pubmed">24806568</ArticleId>
+            <ArticleId IdType="pmc">PMC4123452</ArticleId>
+            <ArticleId IdType="mid">NIHMS609967</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
