@@ -22,7 +22,8 @@
         "yiisoft/yii2-jui": "*",
         "dektrium/yii2-user": "0.9.*@dev",
         "kartik-v/yii2-slider": "*",
-        "wbraganca/yii2-dynamicform": "*"
+        "wbraganca/yii2-dynamicform": "*",
+        "phpoffice/phpword": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

@@ -18,6 +18,7 @@ use Yii;
  * @property string $evidenceText
  * @property string $relevanceText
  * @property string $signText
+ * @property string $ratingSummary
  *
  * @property Sourceproject[] $sourceprojects
  */
@@ -39,7 +40,8 @@ class Rating extends \yii\db\ActiveRecord
         return [
             [['ratedBy', 'evidenceValue', 'relevanceValue', 'signValue', 'use', 'risk'], 'integer'],
             [['ratingDate'], 'safe'],
-            [['evidenceText', 'relevanceText', 'signText'], 'string', 'max' => 45]
+            [['evidenceText', 'relevanceText', 'signText'], 'string', 'max' => 255],
+            [['ratingSummary'], 'string', 'max' => 1000]
         ];
     }
 
@@ -60,6 +62,7 @@ class Rating extends \yii\db\ActiveRecord
             'evidenceText' => 'Evidence Text',
             'relevanceText' => 'Relevance Text',
             'signText' => 'Sign Text',
+            'ratingSummary' => 'Zusammenfassung',
         ];
     }
 

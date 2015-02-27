@@ -44,7 +44,8 @@ $this->params['breadcrumbs'][] = 'Referenzen';
     ]); ?>
     <br>
 
-    <?= GridView::widget([
+    <!--
+     GridView::widget([
         'dataProvider' => $refdocsData,
         //'filterModel' => $searchModel,
         'columns' => [
@@ -55,8 +56,8 @@ $this->params['breadcrumbs'][] = 'Referenzen';
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
-    ]); ?>
-
+    ]);
+    -->
     <?= DetailView::widget([
         'model' => $projectModel,
         'attributes' => [
@@ -83,12 +84,12 @@ $this->params['breadcrumbs'][] = 'Referenzen';
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                <?= Html::a('Back to Projects', ['project/index'], ['class' => 'btn btn-primary btn-lg btn-block']) ?>
+                <?= Html::a('Zurück zum Projekt', ['project/view', 'id' => $projectModel->projectid], ['class' => 'btn btn-primary btn-lg btn-block']) ?>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5">
             </div>
-            <div class="col-lg-3">
-                <?= Html::a('Weiter', ['source/index', 'id' => $projectModel->projectid], ['class' => 'btn btn-success btn-lg btn-block']) ?>
+            <div class="col-lg-4">
+                <?= Html::a('Weiter zu Quellen', ['source/index', 'id' => $projectModel->projectid], ['class' => 'btn btn-success btn-lg btn-block']) ?>
             </div>
         </div>
 

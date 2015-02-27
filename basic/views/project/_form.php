@@ -37,7 +37,25 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'productDescription')->textInput(['maxlength' => 45]) ?>
 -->
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+
+
+
+    <!-- here could probably use some jQuery to add submitButton outside the form
+    look: https://gist.github.com/jonvargas/9b887b465e272b38ccdf
+    -->
+        <div class="row">
+            <div class="col-lg-3">
+                <?= Html::a('Zurück zum Projekt', ['project/view', 'id' => $model->projectid], ['class' => 'btn btn-primary btn-lg btn-block']) ?>
+            </div>
+            <div class="col-lg-4">
+                <?= Html::a('Weiter ohne Änderung', ['project/description', 'id' => $model->projectid], ['class' => 'btn btn-default btn-lg btn-block']) ?>
+            </div>
+            <div class="col-lg-5">
+                <?= Html::submitButton($model->isNewRecord ?
+                    'Create' : 'Speichern', ['class' => $model->isNewRecord ?
+                    'btn btn-success btn-lg btn-block' : 'btn btn-success btn-lg btn-block']) ?>
+            </div>
+        </div>
     </div>
 
     <?php ActiveForm::end(); ?>

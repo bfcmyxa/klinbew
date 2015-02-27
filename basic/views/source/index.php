@@ -12,6 +12,7 @@ use yii\widgets\DetailView;
 
 $this->title = 'Literaturquellen';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <div class="source-index">
 
@@ -57,24 +58,34 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'rate_button',
                 'format' => 'raw',
                 'value' => function ($model) {
-                    return Html::a('Bewerten', ['rating/create', 'sourceId' => $model['sourceId'], 'projectId' => $_GET['id'] ], ['class' => 'btn btn-primary']);
+                    //if rated return update with ratingid
+                    if ($model['status']== 1) {
+                        //return rated
+                        $rating = $model->getRatings()->asArray()->all();
+                        $id = $rating[0]['ratingId'];
+                        return Html::a('Bewerten', ['rating/update', 'id' => $id, 'sourceId' => $model['sourceId'], 'projectId' => $_GET['id'] ], ['class' => 'btn btn-primary']);
+                    } else {
+                        //return not rated
+                        return Html::a('Bewerten', ['rating/create', 'sourceId' => $model['sourceId'], 'projectId' => $_GET['id'] ], ['class' => 'btn btn-primary']);
+                    }
                 },
             ],
-
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
 
-    <?= GridView::widget([
-        'dataProvider' => $srcprojData,
-        'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
-            'projectId',
-            'sourceId',
-            'ratingId',
-            ['class' => 'yii\grid\ActionColumn'],
-        ],
-    ]); ?>
+<!--
+     GridView::widget([
+    'dataProvider' => $srcprojData,
+    'columns' => [
+    ['class' => 'yii\grid\SerialColumn'],
+    'projectId',
+    'sourceId',
+    'ratingId',
+    ['class' => 'yii\grid\ActionColumn'],
+    ],
+    ]);
+    -->
 
     <?= DetailView::widget([
         'model' => $projectModel,
@@ -94,5 +105,21 @@ $this->params['breadcrumbs'][] = $this->title;
             //'alias',
         ],
     ]) ?>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <?= Html::a('Zurück zum Projekt', ['project/view', 'id' => $projectModel->projectid], ['class' => 'btn btn-primary btn-lg btn-block']) ?>
+            </div>
+            <div class="col-lg-5">
+            </div>
+            <div class="col-lg-4">
+                <?= Html::a('Weiter zur Zusammenfassung', ['project/summary',  'id' => $projectModel->projectid], ['class' => 'btn btn-success btn-lg btn-block']) ?>
+            </div>
+        </div>
+
+    </div>
+
 
 </div>

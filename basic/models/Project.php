@@ -42,7 +42,8 @@ class Project extends \yii\db\ActiveRecord
         return [
             [['createdBy', 'dokumentVersion', 'productVersion'], 'integer'],
             [['creationDate', 'modifyDate', 'productDescription'], 'safe'],
-            [['title', 'alias', 'status', 'fileName', 'productName'], 'string', 'max' => 45]
+            [['title', 'alias', 'status', 'fileName', 'productName'], 'string', 'max' => 255],
+            [['sourceSummary'], 'string', 'max' => 10000]
         ];
     }
 
@@ -64,6 +65,7 @@ class Project extends \yii\db\ActiveRecord
             'dokumentVersion' => 'Dokument Version',
             'productVersion' => 'Produkt Version',
             'productDescription' => 'Product Description',
+            'sourceSummary' => 'Zusammenfassung'
         ];
     }
 

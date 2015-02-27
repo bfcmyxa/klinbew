@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\Project;
 use app\models\ProjectSearch;
+use yii\data\SqlDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -88,7 +89,7 @@ class ProjectController extends Controller
         $model->status = 'Project Updated';
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->projectid]);
+            return $this->redirect(['description', 'id' => $model->projectid]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -117,7 +118,7 @@ class ProjectController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             $model->status = 'Description Updated';
             if ($model->save()) {
-                return $this->redirect(['view', 'id' => $id]);
+                return $this->redirect(['reference/index', 'id' => $id]);
             }
         } else {
             return $this->render('description', [
@@ -158,5 +159,51 @@ class ProjectController extends Controller
         ]);
     }
 
+    public function actionSummary($id) {
+
+        $model = $this->findModel($id);
+        $sql = 'SELECT source.title, rating.ratingSummary FROM source, rating, project, sourceProject
+                WHERE sourceProject.ratingId = rating.ratingId AND sourceProject.sourceId = source.sourceId
+                AND sourceProject.projectId = ' . $model->projectid . '
+                GROUP BY source.title';
+        $dataProvider = new SqlDataProvider(['sql' => $sql]);
+
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model->status = 'Summary Updated';
+            if ($model->save()) {
+                return $this->redirect(['export', 'id' => $id]);
+            }
+        } else {
+            return $this->render('summary', [
+                'model' => $model,
+                'dataProvider' => $dataProvider
+            ]);
+        }
+    }
+
+    public function actionExport($id) {
+        $model = $this->findModel($id);
+        if ($model->load(Yii::$app->request->post())) {
+            $model->status = 'Exported';
+            if ($model->save()) {
+                return $this->redirect(['view', 'id' => $id]);
+            }
+        } else {
+            return $this->render('export', [
+                'model' => $model
+            ]);
+        }
+    }
+
+    public function actionMsword($id) {
+        $this->layout='empty';
+        $model = $this->findModel($id);
+
+        return $this->render('msword', [
+            'model' => $model
+        ]);
+
+    }
 
 }

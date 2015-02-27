@@ -92,15 +92,24 @@ class RatingController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionUpdate($id)
+    public function actionUpdate($id, $sourceId, $projectId)
     {
         $model = $this->findModel($id);
+        $sourceModel = Source::findOne($sourceId);
+        $projectModel = Project::findOne($projectId);
+        $model->ratedBy = Yii::$app->user->id;
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->ratingId]);
+            $sourceModel->status = 1;
+            $projectModel->unlink('sources', $sourceModel, $delete = true);
+            $projectModel->link('ratings', $model, ['sourceId' => $sourceId]);
+            $sourceModel->save();
+            return $this->redirect(['source/index', 'id' => $projectId]);
         } else {
             return $this->render('update', [
+                'id' => $id,
                 'model' => $model,
+                'sourceModel' => $sourceModel,
             ]);
         }
     }

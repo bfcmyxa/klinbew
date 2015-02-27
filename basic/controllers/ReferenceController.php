@@ -36,9 +36,13 @@ class ReferenceController extends Controller
     public function actionIndex($id)
     {
         $searchModel = new ReferenceSearch();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
+        //$dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         $projectModel = Project::findOne($id);
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $projectModel->getReferences(),
+        ]);
+
 
 
         $refdocsData = new ActiveDataProvider([

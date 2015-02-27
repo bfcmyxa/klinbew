@@ -69,6 +69,7 @@ class ProjectSearch extends Project
             ->andFilterWhere(['like', 'status', $this->status])
             ->andFilterWhere(['like', 'fileName', $this->fileName])
             ->andFilterWhere(['like', 'productName', $this->productName])
+            ->andFilterWhere(['like', 'sourceSummary', $this->sourceSummary])
             ->andFilterWhere(['like', 'productDescription', $this->productDescription]);
 
         return $dataProvider;

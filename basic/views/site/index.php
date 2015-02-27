@@ -1,5 +1,6 @@
 <?php
 /* @var $this yii\web\View */
+use yii\helpers\Html;
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
@@ -9,7 +10,8 @@ $this->title = 'My Yii Application';
 
         <p class="lead">Das Toolset zur Erstellung von klinischer Bewertung.</p>
 
-        <p><a class="btn btn-lg btn-success" href="/basic/web/index.php?r=user/registration/register">Jetzt probieren</a></p>
+        <?php include 'choosebutton.php'; ?>
+
     </div>
 
     <div class="body-content">

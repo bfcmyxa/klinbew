@@ -28,7 +28,7 @@ use kartik\slider\Slider;
         ]
     ]);
     ?>
-    <?= $form->field($model, 'evidenceText')->textInput(['maxlength' => 45]) ?>
+    <?= $form->field($model, 'evidenceText')->textInput(['maxlength' => 255]) ?>
 
     <?= $form->field($model, 'relevanceValue')->widget(Slider::classname(), [
         'sliderColor'=>Slider::TYPE_GREY,
@@ -40,7 +40,7 @@ use kartik\slider\Slider;
         ]
     ]);
     ?>
-    <?= $form->field($model, 'relevanceText')->textInput(['maxlength' => 45]) ?>
+    <?= $form->field($model, 'relevanceText')->textInput(['maxlength' => 255]) ?>
 
     <?= $form->field($model, 'signValue')->widget(Slider::classname(), [
         'sliderColor'=>Slider::TYPE_GREY,
@@ -52,10 +52,12 @@ use kartik\slider\Slider;
         ]
     ]);
     ?>
-    <?= $form->field($model, 'signText')->textInput(['maxlength' => 45]) ?>
+    <?= $form->field($model, 'signText')->textInput(['maxlength' => 255]) ?>
 
     <?= $form->field($model, 'use')->textInput() ?>
     <?= $form->field($model, 'risk')->textInput() ?>
+
+    <?= $form->field($model, 'ratingSummary')->textArea(['rows' => 3]) ?>
 
 
     <div class="form-group">

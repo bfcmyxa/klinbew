@@ -60,6 +60,7 @@ class SourceController extends Controller
 
         ]);
 
+
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
@@ -230,7 +231,8 @@ class SourceController extends Controller
     }
 
     /**
-     * @param \SimpleXMLElement $xml
+     * @param \SimpleXMLElement $xmlElement
+     * @return array -> associated array with needed data for sources
      */
     protected function getExtractedData(\SimpleXMLElement $xmlElement) {
        $year = $xmlElement->MedlineCitation->Article->Journal->JournalIssue->PubDate->Year->__toString();

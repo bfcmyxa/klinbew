@@ -19,7 +19,7 @@ class RatingSearch extends Rating
     {
         return [
             [['ratingId', 'ratedBy', 'evidenceValue', 'relevanceValue', 'signValue', 'use', 'risk'], 'integer'],
-            [['ratingDate', 'evidenceText', 'relevanceText', 'signText'], 'safe'],
+            [['ratingDate', 'evidenceText', 'relevanceText', 'signText', 'ratingSummary'], 'safe'],
         ];
     }
 
@@ -68,7 +68,8 @@ class RatingSearch extends Rating
 
         $query->andFilterWhere(['like', 'evidenceText', $this->evidenceText])
             ->andFilterWhere(['like', 'relevanceText', $this->relevanceText])
-            ->andFilterWhere(['like', 'signText', $this->signText]);
+            ->andFilterWhere(['like', 'signText', $this->signText])
+            ->andFilterWhere(['like', 'ratingSummary', $this->ratingSummary]);
 
         return $dataProvider;
     }

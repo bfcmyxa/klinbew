@@ -19,19 +19,6 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             <div class="col-md-9">
                 <h1><?= Html::encode($this->title) ?></h1>
-                <p>
-                    <?= Html::a('Change Metadata', ['update', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
-                    <?= Html::a('Produktbeschreibung', ['description', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
-                    <?= Html::a('Referenzen', ['reference/index', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
-                    <?= Html::a('Quellen', ['source/index', 'id' => $model->projectid], ['class' => 'btn btn-primary']) ?>
-                    <?= Html::a('Delete', ['delete', 'id' => $model->projectid], [
-                        'class' => 'btn btn-danger',
-                        'data' => [
-                            'confirm' => 'Are you sure you want to delete this item?',
-                            'method' => 'post',
-                        ],
-                    ]) ?>
-                </p>
             </div>
         </div>
         <div class="row">
@@ -42,15 +29,8 @@ $this->params['breadcrumbs'][] = $this->title;
                     <?= Html::a('Produktbeschreibung', ['description', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                     <?= Html::a('Referenzen', ['reference/index', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                     <?= Html::a('Quellen', ['source/index', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
-                    <a href="#" class="list-group-item">
-                        Zusammenfassung
-                    </a>
-                    <a href="#" class="list-group-item">
-                        Klassifizierung
-                    </a>
-                    <a href="#" class="list-group-item">
-                        Exportieren
-                    </a>
+                    <?= Html::a('Zusammenfassung', ['summary', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
+                    <?= Html::a('Exportieren', ['export', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                 </div>
             </div>
             <div class="col-md-9">
@@ -68,6 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         'dokumentVersion',
                         'productVersion',
                         'productDescription',
+                        'sourceSummary',
                         //'projectid',
                         //'referenceProjectId',
                         //'modifyDate',
@@ -79,11 +60,40 @@ $this->params['breadcrumbs'][] = $this->title;
                 ]) ?>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-11">
+            </div>
+            <div class="col-md-1">
+                <p>
+                    <?= Html::a('Delete', ['delete', 'id' => $model->projectid], [
+                        'class' => 'btn btn-danger',
+                        'data' => [
+                            'confirm' => 'Are you sure you want to delete this item?',
+                            'method' => 'post',
+                        ],
+                    ]) ?>
+                </p>
+            </div>
+        </div>
 
     </div>
 
 
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <?= Html::a('Zurück zu Projekte', ['project/index'], ['class' => 'btn btn-primary btn-lg btn-block']) ?>
+            </div>
+            <div class="col-lg-5">
+            </div>
+            <div class="col-lg-4">
+                <?= Html::a('Weiter zu Metadata', ['project/update', 'id' => $model->projectid], ['class' => 'btn btn-success btn-lg btn-block']) ?>
+            </div>
+        </div>
 
+    </div>
 
 
 

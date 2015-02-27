@@ -40,7 +40,23 @@ use yii\jui\DatePicker;
 
 -->
     <div class="form-group">
-        <?= Html::submitButton('Speichern', ['class' => 'btn btn-default']) ?>
+
+
+        <!-- here could probably use some jQuery to add submitButton outside the form
+   look: https://gist.github.com/jonvargas/9b887b465e272b38ccdf
+   -->
+        <div class="row">
+            <div class="col-lg-3">
+                <?= Html::a('Zurück zum Projekt', ['project/view', 'id' => $model->projectid], ['class' => 'btn btn-primary btn-lg btn-block']) ?>
+            </div>
+            <div class="col-lg-4">
+                <?= Html::a('Weiter ohne Änderung', ['reference/index', 'id' => $model->projectid], ['class' => 'btn btn-default btn-lg btn-block']) ?>
+            </div>
+            <div class="col-lg-5">
+                <?= Html::submitButton('Speichern', ['class' => 'btn btn-success btn-lg btn-block']) ?>
+            </div>
+        </div>
+
     </div>
 
     <?php ActiveForm::end(); ?>
