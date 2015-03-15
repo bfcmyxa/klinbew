@@ -52,16 +52,16 @@ class Source extends \yii\db\ActiveRecord
     {
         return [
             'sourceId' => 'Source ID',
-            'type' => 'Type',
-            'title' => 'Title',
-            'year' => 'Year',
-            'place' => 'Place',
-            'publisher' => 'Publisher',
+            'type' => 'Typ',
+            'title' => 'Name',
+            'year' => 'Jahr',
+            'place' => 'Ort',
+            'publisher' => 'Verleger',
             'keywords' => 'Keywords',
             'text' => 'Text',
             'status' => 'Status',
             'sourceRatingId' => 'Source Rating ID',
-            'summary' => 'Summary',
+            'summary' => 'Zusammenfassung',
         ];
     }
 

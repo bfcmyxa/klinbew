@@ -19,27 +19,29 @@ use yii\grid\GridView;
 
     <?= $form->field($model, 'type')
         ->dropDownList(['Buch' => 'Buch', 'Artikel in Zeitschrift' => 'Artikel in Zeitschrift', 'Website' => 'Website']) ?>
-    <?= $form->field($model, 'title')->textInput(['maxlength' => 45]) ?>
+    <?= $form->field($model, 'title')->textInput(['maxlength' => 1000]) ?>
     <?= $form->field($model, 'year')->textInput() ?>
     <?= $form->field($model, 'place')->textInput(['maxlength' => 45]) ?>
-    <?= $form->field($model, 'publisher')->textInput(['maxlength' => 45]) ?>
-    <?= $form->field($model, 'keywords')->textInput(['maxlength' => 45]) ?>
+    <?= $form->field($model, 'publisher')->textInput(['maxlength' => 255]) ?>
+    <?= $form->field($model, 'keywords')->textInput(['maxlength' => 10000]) ?>
     <?= $form->field($model, 'text')->textArea(['rows' => 6]) ?>
 
-    <h4>Authors</h4>
+    <h4>Authoren</h4>
 
     <?php DynamicFormWidget::begin([
-        'dynamicItems' => '#form-authors',
-        'dynamicItem' => '.form-author',
+        'widgetContainer' => 'dynamicform_wrapper',
+        'widgetBody' => '#form-authors',
+        'widgetItem' => '.form-author',
+        'insertButton' => '.clone', // css class
+        'deleteButton' => '.delete', // css class
         'model' => $authorModels[0],
         'formId' => 'dynamic-form',
         'formFields' => [
             'name',
             'fname',
         ],
-        'options' => [
-            'limit' => 15, // the maximum times, an element can be cloned (default 999)
-        ]
+        'limit' => 15, // the maximum times, an element can be cloned (default 999)
+
     ]); ?>
 
     <div id="form-authors">
@@ -84,8 +86,10 @@ use yii\grid\GridView;
      //$form->field($model, 'sourceRatingId')->textInput()
     <?= $form->field($model, 'summary')->textInput(['maxlength' => 45]) ?>
     -->
+
+
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($model->isNewRecord ? 'Hinzufügen' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

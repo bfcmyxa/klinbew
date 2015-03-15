@@ -61,11 +61,11 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
         </div>
         <div class="row">
-            <div class="col-md-11">
+            <div class="col-md-10">
             </div>
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <p>
-                    <?= Html::a('Delete', ['delete', 'id' => $model->projectid], [
+                    <?= Html::a('<span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete', ['delete', 'id' => $model->projectid], [
                         'class' => 'btn btn-danger',
                         'data' => [
                             'confirm' => 'Are you sure you want to delete this item?',

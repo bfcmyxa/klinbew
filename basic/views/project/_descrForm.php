@@ -53,7 +53,7 @@ use yii\jui\DatePicker;
                 <?= Html::a('Weiter ohne Änderung', ['reference/index', 'id' => $model->projectid], ['class' => 'btn btn-default btn-lg btn-block']) ?>
             </div>
             <div class="col-lg-5">
-                <?= Html::submitButton('Speichern', ['class' => 'btn btn-success btn-lg btn-block']) ?>
+                <?= Html::submitButton('Speichern und weiter', ['class' => 'btn btn-success btn-lg btn-block']) ?>
             </div>
         </div>
 

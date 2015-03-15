@@ -23,7 +23,8 @@
         "dektrium/yii2-user": "0.9.*@dev",
         "kartik-v/yii2-slider": "*",
         "wbraganca/yii2-dynamicform": "*",
-        "phpoffice/phpword": "dev-master"
+        "phpoffice/phpword": "dev-master",
+        "kartik-v/yii2-checkbox-x": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

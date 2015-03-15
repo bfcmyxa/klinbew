@@ -8,8 +8,10 @@ use yii\helpers\Html;
 /* @var $authorModels[] */
 
 
-$this->title = 'Create Source';
-$this->params['breadcrumbs'][] = ['label' => 'Sources', 'url' => ['index']];
+$this->title = 'Neue Quelle hinzufügen';
+$this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['project/index']];
+$this->params['breadcrumbs'][] = ['label' => $projectModel->title, 'url' => ['project/view', 'id' => $projectModel->projectid]];
+$this->params['breadcrumbs'][] = ['label' => 'Literaturquellen', 'url' => ['index', 'id' => $projectModel->projectid]];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="source-create">

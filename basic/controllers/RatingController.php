@@ -69,7 +69,8 @@ class RatingController extends Controller
         $sourceModel = Source::findOne($sourceId);
         $projectModel = Project::findOne($projectId);
         $model->ratedBy = Yii::$app->user->id;
-
+        $model->use = 0;
+        $model->risk = 0;
 
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
@@ -82,6 +83,7 @@ class RatingController extends Controller
             return $this->render('create', [
                 'model' => $model,
                 'sourceModel' => $sourceModel,
+                'projectModel' => $projectModel,
             ]);
         }
     }

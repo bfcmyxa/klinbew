@@ -10,8 +10,10 @@ use yii\widgets\DetailView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 /* @var $refdocsData yii\data\ActiveDataProvider */
 
-$this->title = 'Referenzierte Dokumenten';
-$this->params['breadcrumbs'][] = 'Referenzen';
+$this->title = 'Relevante Dokumenten';
+$this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $projectModel->title, 'url' => ['project/view', 'id' => $projectModel->projectid]];
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="reference-index">
 
@@ -25,7 +27,7 @@ $this->params['breadcrumbs'][] = 'Referenzen';
     <br>
 
     <p>
-        <?= Html::a('Create Reference', ['create', 'id' => $projectModel->projectid ], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Neues Dokument hinzufügen', ['create', 'id' => $projectModel->projectid ], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -78,7 +80,6 @@ $this->params['breadcrumbs'][] = 'Referenzen';
     ]) ?>
 
 
-
     <br>
     <br>
     <div class="container">
@@ -94,6 +95,4 @@ $this->params['breadcrumbs'][] = 'Referenzen';
         </div>
 
     </div>
-
-
 </div>

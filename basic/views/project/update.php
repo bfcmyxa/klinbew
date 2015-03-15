@@ -8,7 +8,7 @@ use yii\helpers\Html;
 $this->title = 'Change Metadata: ' . ' ' . $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->projectid]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Metadata';
 ?>
 <div class="project-update">
 

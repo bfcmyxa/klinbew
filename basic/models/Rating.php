@@ -38,10 +38,9 @@ class Rating extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['ratedBy', 'evidenceValue', 'relevanceValue', 'signValue', 'use', 'risk'], 'integer'],
+            [['ratedBy', 'use', 'risk', 'evidenceValue', 'relevanceValue', 'signValue'], 'integer'],
             [['ratingDate'], 'safe'],
-            [['evidenceText', 'relevanceText', 'signText'], 'string', 'max' => 255],
-            [['ratingSummary'], 'string', 'max' => 1000]
+            [['ratingSummary', 'evidenceText', 'relevanceText', 'signText'], 'string', 'max' => 1000]
         ];
     }
 
@@ -54,14 +53,14 @@ class Rating extends \yii\db\ActiveRecord
             'ratingId' => 'Rating ID',
             'ratedBy' => 'Rated By',
             'ratingDate' => 'Rating Date',
-            'evidenceValue' => 'Evidence Value',
-            'relevanceValue' => 'Relevance Value',
-            'signValue' => 'Sign Value',
-            'use' => 'Use',
-            'risk' => 'Risk',
-            'evidenceText' => 'Evidence Text',
-            'relevanceText' => 'Relevance Text',
-            'signText' => 'Sign Text',
+            'evidenceValue' => 'Evidenz Wert',
+            'relevanceValue' => 'Relevanz Wert',
+            'signValue' => 'Signifikanz Wert',
+            'use' => 'Geht es bei dieser Quelle um Nutzen?',
+            'risk' => 'Geht es bei dieser Quelle um Risiken?',
+            'evidenceText' => 'Evidenz Begrüdunung',
+            'relevanceText' => 'Relevanz Begründung',
+            'signText' => 'Signifikanz Begründung',
             'ratingSummary' => 'Zusammenfassung',
         ];
     }

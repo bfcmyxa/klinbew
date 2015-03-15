@@ -8,9 +8,12 @@ use yii\widgets\DetailView;
 /* @var $model app\models\Rating */
 /* @var $source app\models\Source */
 
-$this->title = 'Create Rating';
-$this->params['breadcrumbs'][] = ['label' => 'Ratings', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Quelle bewerten';
+$this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['project/index']];
+$this->params['breadcrumbs'][] = ['label' => $projectModel->title, 'url' => ['project/view', 'id' => $projectModel->projectid]];
+$this->params['breadcrumbs'][] = ['label' => 'Literaturquellen', 'url' => ['source/index', 'id' => $projectModel->projectid]];
+$label = 'Quelle mit der ID ' . $sourceModel->sourceId . ' bewerten';
+$this->params['breadcrumbs'][] = $label;
 ?>
 <div class="rating-create">
 

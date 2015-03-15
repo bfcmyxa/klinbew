@@ -11,6 +11,8 @@ use yii\widgets\DetailView;
 /* @var $srcprojData yii\data\ActiveDataProvider */
 
 $this->title = 'Literaturquellen';
+$this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $projectModel->title, 'url' => ['project/view', 'id' => $projectModel->projectid]];
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>

@@ -199,10 +199,7 @@ class SourceController extends Controller
             foreach ($inputXml->PubmedArticle as $article) {
                 $articles[] = $this->getExtractedData($article);
             }
-
-            // here comes adding data to the database
-
-
+            // adding data to the database
             foreach ($articles as $article) {
                 $sourceModel = new Source();
                 $sourceModel->type = $article['type'];
@@ -223,7 +220,6 @@ class SourceController extends Controller
                     $authorModel->save();
                 }
             }
-
             return $this->redirect(['index', 'id' => $id]);
         } else {
             return $this->render('import', ['model' => $model]);

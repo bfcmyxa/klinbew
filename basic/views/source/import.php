@@ -9,7 +9,7 @@ use yii\widgets\ActiveForm;
 /* @var $author[]  */
 
 $this->title = 'Import Sources';
-$this->params['breadcrumbs'][] = ['label' => 'Sources', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Sources', 'url' => ['index', 'id' => $projectModel->projectid]];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="source-imnport">

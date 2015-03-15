@@ -52,7 +52,7 @@ use yii\widgets\ActiveForm;
             </div>
             <div class="col-lg-5">
                 <?= Html::submitButton($model->isNewRecord ?
-                    'Create' : 'Speichern', ['class' => $model->isNewRecord ?
+                    'Speichern' : 'Speichern und weiter', ['class' => $model->isNewRecord ?
                     'btn btn-success btn-lg btn-block' : 'btn btn-success btn-lg btn-block']) ?>
             </div>
         </div>

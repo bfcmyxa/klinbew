@@ -42,7 +42,7 @@ class Author extends \yii\db\ActiveRecord
         return [
             'authorId' => 'Author ID',
             'name' => 'Name',
-            'fname' => 'Fname',
+            'fname' => 'Familienname',
             'sourceAuthId' => 'Source Id'
         ];
     }
