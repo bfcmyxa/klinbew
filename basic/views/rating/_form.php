@@ -33,7 +33,7 @@ use kartik\checkbox\CheckboxX;
             </div>
             <div class="col-lg-4">
                 <button type="button" class="btn btn-info" id="signifikanz" data-toggle="collapse" data-target="#signifikanzCollapse" aria-expanded="false" aria-controls="signifikanzCollapse">
-                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Was ist der Evidenz Wert?
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Was ist der Signifikanz Wert?
                 </button>
 
             </div>
@@ -44,7 +44,7 @@ use kartik\checkbox\CheckboxX;
 
     <div class="collapse" id="evidenzCollapse">
         <div class="well">
-            Der Evidenz Wert, oder mit anderen Wörter die Güte der Quelle, basiert sich auf dem zugrundeliegenden Studiendesign.
+            Der Evidenz Wert, oder mit anderen Worten die Güte der Quelle, basiert auf dem zugrundeliegenden Studiendesign.
             <br>
             <br>
             <div class="row">
@@ -55,22 +55,22 @@ use kartik\checkbox\CheckboxX;
                 <div class="col-lg-3">
 
                     <p>
-                        Güteklasse 6:
+                        Güteklasse 6: Systematic Reviews
                     </p>
                     <p>
-                        Güteklasse 5:
+                        Güteklasse 5: Randomized Controlled Trials
                     </p>
                     <p>
-                        Güteklasse 4:
+                        Güteklasse 4: Cohort Studies
                     </p>
                     <p>
-                        Güteklasse 3:
+                        Güteklasse 3: Case-Control Studies
                     </p>
                     <p>
-                        Güteklasse 2:
+                        Güteklasse 2: Case Series, Case Reports
                     </p>
                     <p>
-                        Güteklasse 1:
+                        Güteklasse 1: Editorials, Expert Opinions
                     </p>
                 </div>
             </div>
@@ -121,22 +121,22 @@ use kartik\checkbox\CheckboxX;
                 Signifikanz der Ergebnisse
             </p>
             <p>
-                Die klinische Relevanz ist unabhängig von der Güte und Relevanz Quelle.
+                Die klinische Relevanz ist unabhängig von der Güte und Relevanz der Quelle.
                 Beispielsweise kann eine hervorragend durchgeführte Studie
                 zum Ergebnis kommen, dass ein Gerät keinen klinisch messbaren
                 oder keinen statistisch relevanten Nutzen bringt.
             </p>
             <br>
             <br>
-            <p>Sehr hohe (5) Signifikanz:
+            <p>(5) Sehr hohe Signifikanz
             </p>
-            <p>            	Hohe klinische (4) Signifikanz:
+            <p>(4) Hohe klinische Signifikanz
             </p>
-            <p>            	Mittlere (3) Signifikanz:
+            <p>(3) Mittlere Signifikanz
             </p>
-            <p>            	Niedrige (2) Signifikanz:
+            <p>(2) Niedrige Signifikanz
             </p>
-            <p>            	Keine (1) Signifikanz:
+            <p>(1) Keine Signifikanz
             </p>
         </div>
     </div>

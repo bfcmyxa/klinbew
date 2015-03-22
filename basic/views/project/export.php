@@ -34,9 +34,9 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-md-3">
             <div class="list-group">
                 <?= Html::a('Index', ['view', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
-                <?= Html::a('Change Metadata', ['update', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
+                <?= Html::a('Metadata', ['update', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                 <?= Html::a('Produktbeschreibung', ['description', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
-                <?= Html::a('Referenzen', ['reference/index', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
+                <?= Html::a('Relevante Dokumente', ['reference/index', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                 <?= Html::a('Quellen', ['source/index', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                 <?= Html::a('Zusammenfassung', ['summary', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                 <?= Html::a('Exportieren', ['export', 'id' => $model->projectid], ['class' => 'list-group-item active']) ?>
@@ -47,8 +47,8 @@ $this->params['breadcrumbs'][] = $this->title;
             <p><h3>Sie haben es fast geschafft!</h3></p>
 
             <p>
-                Hier können Sie die Vorlage für Ihre klinische Bewertung runterladen.
-                Die vorlage beinhalten die Informationen über Ihres Produkt und von Ihnen eingegebene und bewertete Literaturquellen.
+                Hier können Sie die Vorlage für Ihre klinische Bewertung herunterladen.
+                Die Vorlage beinhaltet die Informationen über Ihr Produkt und die von Ihnen eingegebenen und bewerteten Literaturquellen.
             </p>
             <?= Html::a('Download in .doc', ['msword', 'id' => $model->projectid], ['class' => 'btn btn-success btn-lg ', 'target' => '_blank']) ?>
 

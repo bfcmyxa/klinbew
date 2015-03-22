@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model app\models\Project */
 
 $this->title = 'Metadata';
-$this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Projekte', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="project-create">

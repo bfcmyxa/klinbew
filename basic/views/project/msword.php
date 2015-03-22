@@ -99,22 +99,23 @@ if ($ausCount > 1) {
         $evid = $src['ratings'][0]['evidenceValue'];
         $relev = $src['ratings'][0]['relevanceValue'];
         $sign = $src['ratings'][0]['signValue'];
+        $title = $src['title']. '. (' . $src['year'] . ') ' . $src['publisher'] . '. ' . $src['place'] . '.';
 
         if ($evid == '1') {
             $templateProcessor->setValue('counter#' . $i, '' . $i);
-            $templateProcessor->setValue('sourceName#' . $i, $src['title']);
+            $templateProcessor->setValue('sourceName#' . $i, $title);
             $templateProcessor->setValue('sourceReason#' . $i, 'Kleiner Evidenz Wert (Evidenz == 1)');
             $i++;
             continue;
         } elseif ($relev = '1') {
             $templateProcessor->setValue('counter#' . $i, '' . $i);
-            $templateProcessor->setValue('sourceName#' . $i, $src['title']);
+            $templateProcessor->setValue('sourceName#' . $i, $title);
             $templateProcessor->setValue('sourceReason#' . $i, 'Kleiner Relevanz Wert (Relevanz == 1)');
             $i++;
             continue;
         } elseif ($sign = '1') {
             $templateProcessor->setValue('counter#' . $i, '' . $i);
-            $templateProcessor->setValue('sourceName#' . $i, $src['title']);
+            $templateProcessor->setValue('sourceName#' . $i, $title);
             $templateProcessor->setValue('sourceReason#' . $i, 'Kleiner Signifikanz Wert (Signifikanz== 1)');
             $i++;
             continue;
@@ -125,7 +126,7 @@ if ($ausCount > 1) {
 /**
  * Counting appropriate sources.
  */
-$goodSourcesCount = sizeof($srcWithRatings) - $ausCount;
+$goodSourcesCount = sizeof($srcWithRatings) - $ausCount + 1;
 
 /**
  * Setting values for appropriate sources table.
@@ -137,10 +138,14 @@ foreach ($srcWithRatings as $src) {
     $evid = $src['ratings'][0]['evidenceValue'];
     $relev = $src['ratings'][0]['relevanceValue'];
     $sign = $src['ratings'][0]['signValue'];
-    $title = $src['title'];
+    $title = $src['title']. '. (' . $src['year'] . ') ' . $src['publisher'] . '. ' . $src['place'] . '.';
     $use = $src['ratings'][0]['use'];
     $risk = $src['ratings'][0]['risk'];
-    $summary = $src['summary'];
+
+    $evidSum = $src['ratings'][0]['evidenceText'] . ' ';
+    $relevSum = $src['ratings'][0]['relevanceText'] . ' ';
+    $signSum = $src['ratings'][0]['signText'] . ' ';
+    $summary = $evidSum . $relevSum . $signSum . $src['ratings'][0]['ratingSummary'];
     if ($evid == '1' or $relev == '1' or $sign == '1') {
           continue;
      }

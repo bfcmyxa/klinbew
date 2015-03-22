@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\models\Project */
 
 $this->title = $model->title;
-$this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Projekte', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
@@ -25,9 +25,9 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="col-md-3">
                 <div class="list-group">
                     <?= Html::a('Index', ['view', 'id' => $model->projectid], ['class' => 'list-group-item active']) ?>
-                    <?= Html::a('Change Metadata', ['update', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
+                    <?= Html::a('Metadata', ['update', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                     <?= Html::a('Produktbeschreibung', ['description', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
-                    <?= Html::a('Referenzen', ['reference/index', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
+                    <?= Html::a('Relevante Dokumente', ['reference/index', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                     <?= Html::a('Quellen', ['source/index', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                     <?= Html::a('Zusammenfassung', ['summary', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>
                     <?= Html::a('Exportieren', ['export', 'id' => $model->projectid], ['class' => 'list-group-item']) ?>

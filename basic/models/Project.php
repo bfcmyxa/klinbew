@@ -57,14 +57,14 @@ class Project extends \yii\db\ActiveRecord
             'title' => 'Name des Projekts',
             'alias' => 'Link auf das Projekt',
             'status' => 'Status',
-            'createdBy' => 'Author',
+            'createdBy' => 'Autor',
             'creationDate' => 'Creation Date',
             'modifyDate' => 'Modify Date',
             'fileName' => 'Dateiname',
             'productName' => 'Produktname',
             'dokumentVersion' => 'Dokument Version',
-            'productVersion' => 'Produkt Version',
-            'productDescription' => 'Product Description',
+            'productVersion' => 'Produktversion',
+            'productDescription' => 'Produktbeschreibung',
             'sourceSummary' => 'Zusammenfassung'
         ];
     }

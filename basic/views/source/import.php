@@ -8,7 +8,7 @@ use yii\widgets\ActiveForm;
 /* @var $model app\models\Source */
 /* @var $author[]  */
 
-$this->title = 'Import Sources';
+$this->title = 'Quellen importieren';
 $this->params['breadcrumbs'][] = ['label' => 'Sources', 'url' => ['index', 'id' => $projectModel->projectid]];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

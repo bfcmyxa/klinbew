@@ -222,7 +222,8 @@ class SourceController extends Controller
             }
             return $this->redirect(['index', 'id' => $id]);
         } else {
-            return $this->render('import', ['model' => $model]);
+            return $this->render('import', ['model' => $model,
+                'projectModel' => $projectModel]);
         }
     }
 

@@ -58,7 +58,7 @@ class Rating extends \yii\db\ActiveRecord
             'signValue' => 'Signifikanz Wert',
             'use' => 'Geht es bei dieser Quelle um Nutzen?',
             'risk' => 'Geht es bei dieser Quelle um Risiken?',
-            'evidenceText' => 'Evidenz Begrüdunung',
+            'evidenceText' => 'Evidenz Begründung',
             'relevanceText' => 'Relevanz Begründung',
             'signText' => 'Signifikanz Begründung',
             'ratingSummary' => 'Zusammenfassung',

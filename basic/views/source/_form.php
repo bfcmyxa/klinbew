@@ -26,7 +26,7 @@ use yii\grid\GridView;
     <?= $form->field($model, 'keywords')->textInput(['maxlength' => 10000]) ?>
     <?= $form->field($model, 'text')->textArea(['rows' => 6]) ?>
 
-    <h4>Authoren</h4>
+    <h4>Autoren</h4>
 
     <?php DynamicFormWidget::begin([
         'widgetContainer' => 'dynamicform_wrapper',
@@ -48,7 +48,7 @@ use yii\grid\GridView;
         <?php foreach ($authorModels as $i => $authorModel): ?>
             <div class="form-author panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title pull-left">Author</h3>
+                    <h3 class="panel-title pull-left">Autor</h3>
                     <div class="pull-right">
                         <button type="button" class="clone btn btn-success btn-xs"><i class="glyphicon glyphicon-plus"></i></button>
                         <button type="button" class="delete btn btn-danger btn-xs"><i class="glyphicon glyphicon-minus"></i></button>

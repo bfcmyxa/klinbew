@@ -10,7 +10,7 @@ use yii\widgets\DetailView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 /* @var $refdocsData yii\data\ActiveDataProvider */
 
-$this->title = 'Relevante Dokumenten';
+$this->title = 'Relevante Dokumente';
 $this->params['breadcrumbs'][] = ['label' => 'Projects', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $projectModel->title, 'url' => ['project/view', 'id' => $projectModel->projectid]];
 $this->params['breadcrumbs'][] = $this->title;
@@ -22,7 +22,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <br>
     <p>
-        Typische notwendige Dokumenten sind z.B. Zweckbestimmung, Risikoanalyse, SOP, Glossar
+        Typische notwendige Dokumente sind z.B. Zweckbestimmung, Risikoanalyse, SOP, Glossar
     </p>
     <br>
 
